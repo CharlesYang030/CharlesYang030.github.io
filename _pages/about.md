@@ -24,7 +24,7 @@ My research interests include multimodal representation learning, natural langua
 
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-mouth research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu).
-- *2024.05*: &nbsp;🎉🎉 A paper was accepted by ACL2024 main conference! See you in Bangkok!
+- *2024.05*: &nbsp;🎉🎉 A paper was accepted by [ACL2024](https://2024.aclweb.org/) main conference! See you in Bangkok!
 
 # 📝 Publications 
 
