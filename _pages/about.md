@@ -23,9 +23,9 @@ Hello! I'm Qihao, a second year master's student in the School of Computer Scien
 My research interests include multimodal representation learning, natural language processing, multilingual lexical semantics, large language/vision-language models. See my Publications (mostly up to date) or [Google Scholar](https://scholar.google.com.hk/citations?user=rNsndk0AAAAJ) page for papers and more information.
 
 # 🔥 News
-- *2024.05*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-mouth research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange.
-- *2024.05*: &nbsp;🎉🎉 A paper is accepted by [ACL2024](https://2024.aclweb.org/) main conference! See you in Bangkok!.
-- *2024.04*: &nbsp;🎉🎉 I pass the interview with the [TsinghuaNLP Lab](https://nlp.csai.tsinghua.edu.cn/) and establish a scientific research collaboration with them.
+- *2024.05.30*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-mouth research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange.
+- *2024.05.15*: &nbsp;🎉🎉 A paper is accepted by [ACL2024](https://2024.aclweb.org/) main conference! See you in Bangkok!.
+- *2024.04.01*: &nbsp;🎉🎉 I pass the interview with the [TsinghuaNLP Lab](https://nlp.csai.tsinghua.edu.cn/) and establish a scientific research collaboration with them.
 
 # 📝 Publications 
 
