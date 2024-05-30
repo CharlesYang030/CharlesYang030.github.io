@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🙂 About Me
-Hello! I'm Qihao, a second year master's student in the School of Computer Science at South China Normal Universt, advised by Professor [Tinyong Hao](https://scholar.google.com/citations?user=gM77jOQAAAAJ) and supported by the [TAM Lab](https://tony-hao.github.io/TAMLab/index.html). 
+Hello! I'm Qihao, a second year master's student in the School of Computer Science at South China Normal Universty, advised by Professor [Tinyong Hao](https://scholar.google.com/citations?user=gM77jOQAAAAJ) and supported by the [TAM Lab](https://tony-hao.github.io/TAMLab/index.html). 
 
 My research interests include multimodal representation learning, natural language processing, multilingual lexical semantics, large language/vision-language models. See my Publications (mostly up to date) or [Google Scholar](https://scholar.google.com.hk/citations?user=rNsndk0AAAAJ) page for papers and more information.
 
