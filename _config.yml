@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Qihao Yang"
-description              : "This is my CV."
+description              : ""
 repository               : "CharlesYang030/CharlesYang030.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "https://github.com/CharlesYang030"
   google_plus      :
   keybase          :
   instagram        :
