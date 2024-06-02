@@ -24,7 +24,7 @@ My research interests include multimodal representation learning, natural langua
 
 # 🔥 News
 - *2024.05.30*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-month research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange!
-- *2024.05.30*: &nbsp;🎉🎉 I am granted a project supported by the Scientific Research Innovation Project of Graduate School of South China Normal University. It earned me an honor!
+- *2024.05.27*: &nbsp;🎉🎉 I am granted a project supported by the Scientific Research Innovation Project of Graduate School of South China Normal University. It earned me an honor!
 - *2024.05.15*: &nbsp;🎉🎉 A paper is accepted by [ACL2024](https://2024.aclweb.org/) main conference! See you in Bangkok!
 - *2024.04.15*: &nbsp;🎉🎉 I have arrived in Seoul, South Korea. And I am going to attend the [ICASSP2024](https://2024.ieeeicassp.org/) conference. Let's have a wonderful encounter!
 - *2024.04.01*: &nbsp;🎉🎉 I pass the interview with the [TsinghuaNLP Lab](https://nlp.csai.tsinghua.edu.cn/) and establish a scientific research collaboration with the excellent researchers from Tsinghua University!
