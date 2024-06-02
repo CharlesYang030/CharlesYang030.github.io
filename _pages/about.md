@@ -119,7 +119,7 @@ Xuelin Wang, **Qihao Yang***(corresponding author)
 
 **Qihao Yang***, Yong Li, Xuelin Wang, Shunhao Li, Tianyong Hao*(corresponding author)
 
-(This paper won first prize in SemEval-2023 Task 1 competition, in which 57 teams participated. It was a good start of my academic career!)
+(This paper won first prize in SemEval-2023 Task 1 competition, in which 57 teams participated. It earned me an honor and was a good start of my academic career!)
 
 **Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Visual Word Sense Disambiguation, Image-Text Retrieval, Contrastive Learning.
