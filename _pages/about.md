@@ -22,6 +22,10 @@ Hello! I'm Qihao, a second year master's student in the School of Computer Scien
 
 My research interests include multimodal representation learning, natural language processing, multilingual lexical semantics, large language/vision-language models. See my Publications (mostly up to date) or [Google Scholar](https://scholar.google.com.hk/citations?user=rNsndk0AAAAJ) page for papers and more information.
 
+I am a travel enthusiast. In the past two years, I have been to Shanghai, Hangzhou, Changsha, Xiangxi Tujia and Miao Autonomous Prefecture, Wuhan, Chaohu, Huangshan, Chengdu, Dujiangyan, Aba Tibetan Autonomous Prefecture, Tianjin, Beijing, Macau, Hong Kong, and Seoul. Traveling around the world is one of my dreams.
+
+I am also one of the founders of LingX, an Empirical Linguistics Studio (语言学实证思辨坊) that aims to deliver consulting and methods related to quantitative linguistics and computational linguistics. The studio has designed and launched a course titled Text Mining and Python Programming and has organized online academic training sessions with over 400 teachers and students from various universities. I am the principal instructor for the course.
+
 # 🔥 News
 - *2024.05.30*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-month research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange!
 - *2024.05.27*: &nbsp;🎉🎉 I am granted a project supported by the Scientific Research Innovation Project of Graduate School of South China Normal University. It earned me an honor!
