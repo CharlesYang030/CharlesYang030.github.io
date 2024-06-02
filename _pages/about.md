@@ -93,7 +93,7 @@ Jiale Chen, **Qihao Yang**, Xuelian Dong, Xiaoling Mao, Tianyong Hao*(correspond
 
 [Asymmetric Cross-modal Attention Network with Multimodal Augmented Mixup for Medical Visual Question Answering](https://www.sciencedirect.com/science/article/pii/S0933365723001811)
 
-Yong Li, **Qihao Yang**, Fu Lee Wang (Hong Kong), Lap-Kei Lee (Hong Kong), Yingying Qu*(corresponding author), Tianyong Hao*(corresponding author)
+Yong Li, **Qihao Yang**, Fu Lee Wang (Hong Kong), Lap-Kei Lee (Hong Kong), Yingying Qu\*(corresponding author), Tianyong Hao\*(corresponding author)
 
 **Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Medical Visual Question Answering, Cross Modal Attention, Data Augmentation, Mixup, Multimodal Interaction.
