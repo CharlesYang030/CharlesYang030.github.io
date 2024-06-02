@@ -127,7 +127,7 @@ Xuelin Wang, **Qihao Yang***(corresponding author)
 
 [TAM of SCNU at SemEval-2023 Task 1: FCLL: A Fine-grained Contrastive Language-image Learning Model for Cross-language Visual Word Sense Disambiguation](https://aclanthology.org/2023.semeval-1.70)
 
-**Qihao Yang***, Yong Li, Xuelin Wang, Shunhao Li, Tianyong Hao*(corresponding author)
+**Qihao Yang**, Yong Li, Xuelin Wang, Shunhao Li, Tianyong Hao*(corresponding author)
 
 (This paper won first prize in SemEval-2023 Task 1 competition, in which 57 teams participated. It earned me an honor and was a good start of my academic career!)
 
