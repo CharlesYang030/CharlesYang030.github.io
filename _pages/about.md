@@ -47,9 +47,6 @@ Currently, I am pursuing a PhD opportunity for Fall 2025. I hope to further delv
 **Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Word Sense Disambiguation, Contrastive Learning, Multimodal Learning.
 
-**TL;DR** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This paper proposes a unified image-text word sense disambiguation model, achieving the state-of-the-art results on both Textual-WSD and Visual-WSD.
-
 **Project** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Supported by the Scientific Research Innovation Project of Graduate School of South China Normal University (Grant No. 2024KYLX090). 
 </div>
@@ -64,9 +61,30 @@ Currently, I am pursuing a PhD opportunity for Fall 2025. I hope to further delv
 
 **Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Visual Word Sense Disambiguation, Image-Text Retrieval, Multimodal Learning, Cross-lingual.
+</div>
+</div>
 
-**TL;DR** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This paper proposes a lightweight text alignment model for visual word sense disambiguation.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">FigLang2024 (co-located with NAACL2024)</div><img src='images/FIGLANG2024_MODEL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FigCLIP: A Generative Multimodal Model with Bidirectional Cross-attention for Understanding Figurative Language via Visual Entailment](https://openreview.net/forum?id=AllykaUS7a)
+
+**Qihao Yang**, Xuelin Wang*(corresponding author)
+
+**Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Multimodal Figurative Language, Vision-Language Model, Multimodal Representation Learning.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">FigLang2024 (co-located with NAACL2024)</div><img src='images/FIGLANG2024_MODEL2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Textual Modal Supplement Framework for Understanding Multi-Modal Figurative Language](https://openreview.net/forum?id=rYLN8kMCYK)
+
+Jiale Chen, **Qihao Yang**, Xuelian Dong, Xiaoling Mao, Tianyong Hao*(corresponding author)
+
+**Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Figurative Language, Vision-Language Model, Multimodal Fine-tune.
 </div>
 </div>
 
