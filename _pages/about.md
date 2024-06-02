@@ -35,7 +35,7 @@ Currently, I am pursuing a PhD opportunity for Fall 2025. I hope to further delv
 - *2024.04.15*: &nbsp;🎉🎉 I have arrived in Seoul, South Korea. And I am going to attend the [ICASSP2024](https://2024.ieeeicassp.org/) conference. Let's have a wonderful encounter!
 - *2024.04.01*: &nbsp;🎉🎉 I pass the interview with the [TsinghuaNLP Lab](https://nlp.csai.tsinghua.edu.cn/) and establish a scientific research collaboration with the excellent researchers from Tsinghua University!
 
-# 🎖 Honors and Awards
+# 🥇 Honors and Awards
 **Competition** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - [**First Prize**](https://drive.google.com/file/d/1Sqt36CK2VY11_ylk3TMVurHQL82B05jt/view?usp=sharing), International Natural Language Processing Competition SemEval-2023 Task 1 - Visual Word Sense Disambiguation (First Author)
 - [**First Prize**](https://www.codabench.org/competitions/1970/), FigLang-2024 Shared Task - Multimodal Figurative Language (Second Author)
