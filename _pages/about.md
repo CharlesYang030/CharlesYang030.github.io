@@ -23,21 +23,28 @@ Hello! I'm Qihao, a second year master's student in the School of Computer Scien
 My research interests include multimodal representation learning, natural language processing, multilingual lexical semantics, large language/vision-language models. See my Publications (mostly up to date) or [Google Scholar](https://scholar.google.com.hk/citations?user=rNsndk0AAAAJ) page for papers and more information.
 
 # 🔥 News
-- *2024.05.30*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-mouth research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange.
-- *2024.05.15*: &nbsp;🎉🎉 A paper is accepted by [ACL2024](https://2024.aclweb.org/) main conference! See you in Bangkok!.
-- *2024.04.01*: &nbsp;🎉🎉 I pass the interview with the [TsinghuaNLP Lab](https://nlp.csai.tsinghua.edu.cn/) and establish a scientific research collaboration with them.
+- *2024.05.30*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-month research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange.
+- *2024.05.15*: &nbsp;🎉🎉 A paper is accepted by [ACL2024](https://2024.aclweb.org/) main conference! See you in Bangkok!
+- *2024.04.15*: &nbsp;🎉🎉 I have arrived in Seoul, South Korea. And I am going to attend the [ICASSP2024](https://2024.ieeeicassp.org/) conference. Let's have a wonderful encounter!
+- *2024.04.01*: &nbsp;🎉🎉 I pass the interview with the [TsinghuaNLP Lab](https://nlp.csai.tsinghua.edu.cn/) and establish a scientific research collaboration with the excellent researchers from Tsinghua University.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024 Main</div><img src='images/ACL2024_MODEL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[PolCLIP: A Unified Image-Text Word Sense Disambiguation Model via Generating Multimodal Complementary Representations](https://openreview.net/forum?id=reddQnmur6)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Qihao Yang**, Yong Li, Xuelin Wang, Fu Lee Wang, Tianyong Hao*(corresponding author)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Word Sense Disambiguation, Contrastive Learning, Multimodal Learning.
+
+**TL;DR** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This paper proposes a unified image-text word sense disambiguation model, achieving the state-of-the-art results on both Textual-WSD and Visual-WSD.
+
+**Project** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Supported by the Scientific Research Innovation Project of Graduate School of South China Normal University (Grant No. 2024KYLX090). 
 </div>
 </div>
 
