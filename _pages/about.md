@@ -88,6 +88,44 @@ Jiale Chen, **Qihao Yang**, Xuelian Dong, Xiaoling Mao, Tianyong Hao*(correspond
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Artificial Intelligence in Medicine</div><img src='images/AIM_MODEL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Asymmetric Cross-modal Attention Network with Multimodal Augmented Mixup for Medical Visual Question Answering](https://www.sciencedirect.com/science/article/pii/S0933365723001811)
+
+Yong Li, **Qihao Yang**, Fu Lee Wang (Hong Kong), Lap-Kei Lee (Hong Kong), Yingying Qu*(corresponding author), Tianyong Hao*(corresponding author)
+
+**Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Medical Visual Question Answering, Cross Modal Attention, Data Augmentation, Mixup, Multimodal Interaction.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROCLING2023</div><img src='images/ROCLING_MODEL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LingX at ROCLING 2023 MultiNER-Health Task: Intelligent Capture of Chinese Medical Named Entities by LLMs](https://aclanthology.org/2023.rocling-1.44.pdf)
+
+Xuelin Wang, **Qihao Yang***(corresponding author)
+
+**Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Medical Named Entity Recognition, Entity Extraction, Large Language Models.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SemEval2023 (co-located with ACL2023)</div><img src='images/SEMEVAL2023_MODEL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TAM of SCNU at SemEval-2023 Task 1: FCLL: A Fine-grained Contrastive Language-image Learning Model for Cross-language Visual Word Sense Disambiguation](https://aclanthology.org/2023.semeval-1.70)
+
+**Qihao Yang***, Yong Li, Xuelin Wang, Shunhao Li, Tianyong Hao*(corresponding author)
+
+(This paper won first prize in SemEval-2023 Task 1 competition, in which 57 teams participated. It was a good start of my academic career!)
+
+**Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Visual Word Sense Disambiguation, Image-Text Retrieval, Contrastive Learning.
+</div>
+</div>
+
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
