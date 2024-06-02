@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🙂 About Me
-Hello! I'm Qihao (起豪), a second year master's student in the School of Computer Science at South China Normal Universty, advised by Professor [Tinyong Hao](https://scholar.google.com/citations?user=gM77jOQAAAAJ) and supported by the [TAM Lab](https://tony-hao.github.io/TAMLab/index.html). 
+Hello! I'm Qihao (起豪), a second year master's student in the School of Computer Science at South China Normal Universty, advised by Professor [Tinyong Hao](https://scholar.google.com/citations?user=gM77jOQAAAAJ) and supported by the [TAM Lab](https://tony-hao.github.io/TAMLab/index.html). Here is my [CV](https://drive.google.com/file/d/15d8R2ZDqTyL0Aq-I79KFLRDP9mBv7cRX/view?usp=sharing).
 
 My research interests include multimodal representation learning, natural language processing, multilingual lexical semantics, large language/vision-language models. See my Publications (mostly up to date) or [Google Scholar](https://scholar.google.com.hk/citations?user=rNsndk0AAAAJ) page for papers and more information.
 
@@ -126,30 +126,14 @@ Xuelin Wang, **Qihao Yang***(corresponding author)
 </div>
 </div>
 
-[TAM of SCNU at SemEval-2023 Task 1: FCLL: A Fine-grained Contrastive Language-image Learning Model for Cross-language Visual Word Sense Disambiguation](https://aclanthology.org/2023.semeval-1.70)
-
-**Qihao Yang***, Yong Li, Xuelin Wang, Shunhao Li, Tianyong Hao*(corresponding author)
-
-(This paper won first prize in SemEval-2023 Task 1 competition, in which 57 teams participated. It earned me an honor and was a good start of my academic career!)
-
-**Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Visual Word Sense Disambiguation, Image-Text Retrieval, Contrastive Learning.
-</div>
-</div>
-
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Competition** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- [*First Prize*](https://drive.google.com/file/d/1Sqt36CK2VY11_ylk3TMVurHQL82B05jt/view?usp=sharing), International Natural Language Processing Competition SemEval-2023 Task 1 - Visual Word Sense Disambiguation (First Author)
+- [*First Prize*](https://www.codabench.org/competitions/1970/), FigLang-2024 Shared Task - Multimodal Figurative Language (Second Author)
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Other** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- [*First Prize*], Postgraduate Academic Forum of Guangdong-Hong Kong-Macao Greater Bay Area, 2023 
+- [*First Prize Scholarship*], South China Normal University, 2023
+- [*Third Prize*], Outstanding Paper Award, Computer Academy of Guangdong, 2023
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
-<!-- 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. 
--->
