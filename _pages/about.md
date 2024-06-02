@@ -24,7 +24,7 @@ My research interests include multimodal representation learning, natural langua
 
 I am a travel enthusiast. In the past two years, I have been to Shanghai, Hangzhou, Changsha, Xiangxi Tujia and Miao Autonomous Prefecture, Wuhan, Chaohu, Huangshan, Chengdu, Dujiangyan, Aba Tibetan Autonomous Prefecture, Tianjin, Beijing, Macau, Hong Kong, and Seoul. Traveling around the world is one of my dreams.
 
-I am also one of the founders of LingX, the Studio of Empirical Methods in Linguistics (语言学实证思辨坊) that provides consulting services in quantitative linguistics, computational linguistics and natural language processing. The studio has designed and launched a course titled Text Mining and Python Programming and has organized online academic training sessions, attended by over 400 teachers and students from various universities. I am the principal instructor for the course.
+I am also one of the founders of the Studio of Empirical Methods in Linguistics (语言学实证思辨坊, LingX) that provides consulting services in quantitative linguistics, computational linguistics and natural language processing. The studio has designed and launched a course titled Text Mining and Python Programming and has organized online academic training sessions, attended by over 400 teachers and students from various universities. I am the principal instructor for the course.
 
 Currently, I am pursuing a PhD opportunity for Fall 2025. I hope to further delve into research on practical multimodal applications, large multilingual/vision-language models.
 
