@@ -35,6 +35,16 @@ Currently, I am pursuing a PhD opportunity for Fall 2025. I hope to further delv
 - *2024.04.15*: &nbsp;🎉🎉 I have arrived in Seoul, South Korea. And I am going to attend the [ICASSP2024](https://2024.ieeeicassp.org/) conference. Let's have a wonderful encounter!
 - *2024.04.01*: &nbsp;🎉🎉 I pass the interview with the [TsinghuaNLP Lab](https://nlp.csai.tsinghua.edu.cn/) and establish a scientific research collaboration with the excellent researchers from Tsinghua University!
 
+# 🎖 Honors and Awards
+**Competition** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- [**First Prize**](https://drive.google.com/file/d/1Sqt36CK2VY11_ylk3TMVurHQL82B05jt/view?usp=sharing), International Natural Language Processing Competition SemEval-2023 Task 1 - Visual Word Sense Disambiguation (First Author)
+- [**First Prize**](https://www.codabench.org/competitions/1970/), FigLang-2024 Shared Task - Multimodal Figurative Language (Second Author)
+
+**Other** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- **First Prize**, Postgraduate Academic Forum of Guangdong-Hong Kong-Macao Greater Bay Area, 2023 
+- **First Prize Scholarship**, South China Normal University, 2023
+- **Third Prize**, Outstanding Paper Award, Computer Academy of Guangdong, 2023
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024 Main</div><img src='images/ACL2024_MODEL.png' alt="sym" width="100%"></div></div>
@@ -125,15 +135,3 @@ Xuelin Wang, **Qihao Yang***(corresponding author)
 - Visual Word Sense Disambiguation, Image-Text Retrieval, Contrastive Learning.
 </div>
 </div>
-
-# 🎖 Honors and Awards
-**Competition** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- [*First Prize*](https://drive.google.com/file/d/1Sqt36CK2VY11_ylk3TMVurHQL82B05jt/view?usp=sharing), International Natural Language Processing Competition SemEval-2023 Task 1 - Visual Word Sense Disambiguation (First Author)
-- [*First Prize*](https://www.codabench.org/competitions/1970/), FigLang-2024 Shared Task - Multimodal Figurative Language (Second Author)
-
-**Other** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- [*First Prize*], Postgraduate Academic Forum of Guangdong-Hong Kong-Macao Greater Bay Area, 2023 
-- [*First Prize Scholarship*], South China Normal University, 2023
-- [*Third Prize*], Outstanding Paper Award, Computer Academy of Guangdong, 2023
-
-
