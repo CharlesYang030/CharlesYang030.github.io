@@ -35,7 +35,7 @@ My research interests include multimodal representation learning, natural langua
 
 [PolCLIP: A Unified Image-Text Word Sense Disambiguation Model via Generating Multimodal Complementary Representations](https://openreview.net/forum?id=reddQnmur6)
 
-**Qihao Yang**, Yong Li, Xuelin Wang, Fu Lee Wang, Tianyong Hao*(corresponding author)
+**Qihao Yang**, Yong Li, Xuelin Wang, Fu Lee Wang (Hong Kong), Tianyong Hao*(corresponding author)
 
 **Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Word Sense Disambiguation, Contrastive Learning, Multimodal Learning.
@@ -48,7 +48,20 @@ My research interests include multimodal representation learning, natural langua
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024 Main</div><img src='images/ICASSP2024_MODEL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MTA: A Lightweight Multilingual Text Alignment Model for Cross-Language Visual Word Sense Disambiguation](https://ieeexplore.ieee.org/abstract/document/10447455)
+
+**Qihao Yang**, Xuelin Wang, Yong Li, Lap-Kei Lee (Hong Kong), Fu Lee Wang (Hong Kong), Tianyong Hao*(corresponding author)
+
+**Key words** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Visual Word Sense Disambiguation, Image-Text Retrieval, Multimodal Learning, Cross-lingual.
+
+**TL;DR** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This paper proposes a lightweight text alignment model for visual word sense disambiguation.
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
