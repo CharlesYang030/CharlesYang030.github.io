@@ -46,7 +46,7 @@ Currently, I am pursuing a PhD opportunity for Fall 2025. I hope to further delv
 <!-- - **First Prize Scholarship**, South China Normal University, 2023 -->
 <!-- - **Third Prize**, Outstanding Paper Award, Computer Academy of Guangdong, 2023-->
 
-# 📝 Publications 
+# 📝 Publications (Updating)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024 Main</div><img src='images/ACL2024_MODEL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
