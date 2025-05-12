@@ -18,20 +18,21 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🙂 About Me
-Hello! I'm Qihao (起豪), a second year master's student in the School of Computer Science at South China Normal Universty, advised by Professor [Tinyong Hao](https://scholar.google.com/citations?user=gM77jOQAAAAJ) and supported by the [TAM Lab](https://tony-hao.github.io/TAMLab/index.html). Here is my [CV](https://drive.google.com/file/d/15d8R2ZDqTyL0Aq-I79KFLRDP9mBv7cRX/view?usp=sharing).
+Hello! I'm Qihao (起豪), a second year master's student in the School of Computer Science at South China Normal Universty, advised by Professor [Tinyong Hao](https://scholar.google.com/citations?user=gM77jOQAAAAJ) and supported by the [TAM Lab](https://tony-hao.github.io/TAMLab/index.html). Here is my [CV](https://drive.google.com/file/d/1toQGLPwHlV_q2muU-oMUvIauKz4ijzBb/view?usp=drive_link).
 
 My research interests include multimodal representation learning, natural language processing, multilingual lexical semantics, large language/vision-language models. See my Publications (mostly up to date) or [Google Scholar](https://scholar.google.com.hk/citations?user=rNsndk0AAAAJ) page for papers and more information.
 
-I am a travel enthusiast. In the past two years, I have been to Shanghai, Hangzhou, Changsha, Xiangxi Tujia and Miao Autonomous Prefecture, Wuhan, Chaohu, Huangshan, Chengdu, Dujiangyan, Aba Tibetan Autonomous Prefecture, Tianjin, Beijing, Macau, Hong Kong, and Seoul. Traveling around the world is one of my dreams.
+I am a travel enthusiast. In the past two years, I have been to Shanghai, Hangzhou, Changsha, Xiangxi Tujia and Miao Autonomous Prefecture, Wuhan, Chaohu, Huangshan, Chengdu, Dujiangyan, Aba Tibetan Autonomous Prefecture, Tianjin, Beijing, Macau, Hong Kong, Seoul and Bangkok. Traveling around the world is one of my dreams.
 
 I am also one of the founders of the Studio of Empirical Methods in Linguistics (语言学实证思辨坊, LingX) that provides consulting services in quantitative linguistics, computational linguistics and natural language processing. The studio has designed and launched a course titled Text Mining and Python Programming and has organized online academic training sessions, attended by over 400 teachers and students from various universities. I am the principal instructor for the course.
 
 Currently, I am pursuing a PhD opportunity for Fall 2025. I hope to further delve into research on practical multimodal applications, large multilingual/vision-language models.
 
 # 🔥 News
+- *2025.04.29*: &nbsp;🎉🎉 A paper is accepted by [IJCAI2025](https://2025.ijcai.org/) (CCF A)! See you in Montreal!
 - *2024.05.30*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-month research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange!
 - *2024.05.27*: &nbsp;🎉🎉 I am granted a project supported by the Scientific Research Innovation Project of Graduate School of South China Normal University. It earned me an honor!
-- *2024.05.15*: &nbsp;🎉🎉 A paper is accepted by [ACL2024](https://2024.aclweb.org/) main conference! See you in Bangkok!
+- *2024.05.15*: &nbsp;🎉🎉 A paper is accepted by [ACL2024](https://2024.aclweb.org/) main conference (CCF A)! See you in Bangkok!
 - *2024.04.15*: &nbsp;🎉🎉 I have arrived in Seoul, South Korea. And I am going to attend the [ICASSP2024](https://2024.ieeeicassp.org/) conference. Let's have a wonderful encounter!
 - *2024.04.01*: &nbsp;🎉🎉 I pass the interview with the [TsinghuaNLP Lab](https://nlp.csai.tsinghua.edu.cn/) and establish a scientific research collaboration with the excellent researchers from Tsinghua University!
 
@@ -40,10 +41,10 @@ Currently, I am pursuing a PhD opportunity for Fall 2025. I hope to further delv
 - [**First Prize**](https://drive.google.com/file/d/1Sqt36CK2VY11_ylk3TMVurHQL82B05jt/view?usp=sharing), International Natural Language Processing Competition SemEval-2023 Task 1 - Visual Word Sense Disambiguation (First Author)
 - [**First Prize**](https://www.codabench.org/competitions/1970/), FigLang-2024 Shared Task - Multimodal Figurative Language (Second Author)
 
-**Other** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- **First Prize**, Postgraduate Academic Forum of Guangdong-Hong Kong-Macao Greater Bay Area, 2023 
-- **First Prize Scholarship**, South China Normal University, 2023
-- **Third Prize**, Outstanding Paper Award, Computer Academy of Guangdong, 2023
+<!-- **Other** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+<!-- - **First Prize**, Postgraduate Academic Forum of Guangdong-Hong Kong-Macao Greater Bay Area, 2023 -->
+<!-- - **First Prize Scholarship**, South China Normal University, 2023 -->
+<!-- - **Third Prize**, Outstanding Paper Award, Computer Academy of Guangdong, 2023-->
 
 # 📝 Publications 
 
