@@ -29,7 +29,7 @@ I am also one of the founders of the Studio of Empirical Methods in Linguistics 
 Due to some unexpected changes, I missed the 2024-2025 PhD application season. Currently, I am a research assistant at SCNU advised by Professor Hao and pursuing a PhD position for Spring/Fall 2026. I hope to further delve into research I'm passionate about and make greater contributions to the field of artificial intelligence.
 
 # 🔥 News
-- *2025.08.21*: &nbsp;🎉🎉 A co-authored paper is accepted by [EMNLP2025](https://2025.emnlp.org/) main conference (CCF A)! Congrats to 家乐 and 雪莲!
+- *2025.08.21*: &nbsp;🎉🎉 A co-authored paper is accepted by [EMNLP2025](https://2025.emnlp.org/) main conference (CCF B)! Congrats to 家乐 and 雪莲!
 - *2025.04.29*: &nbsp;🎉🎉 A first-author paper is accepted by [IJCAI2025](https://2025.ijcai.org/) (CCF A)! See you in Guangzhou!
 - *2024.05.30*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-month research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange!
 - *2024.05.27*: &nbsp;🎉🎉 I am granted a project supported by the Scientific Research Innovation Project of Graduate School of South China Normal University. It earned me an honor!
