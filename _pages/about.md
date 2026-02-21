@@ -18,17 +18,18 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🙂 About Me
-Hello! I'm Qihao (起豪), a master's student at the School of Computer Science at South China Normal Universty, advised by Professor [Tianyong Hao](https://scholar.google.com/citations?user=gM77jOQAAAAJ) and supported by the [TAM Lab](https://tony-hao.github.io/TAMLab/index.html). Here is my [CV](https://drive.google.com/file/d/1toQGLPwHlV_q2muU-oMUvIauKz4ijzBb/view?usp=drive_link).
+Hello! I'm Qihao (起豪). I received my master's degree in June 2025 at the School of Computer Science at South China Normal Universty, advised by Professor [Tianyong Hao](https://scholar.google.com/citations?user=gM77jOQAAAAJ) and supported by the [TAM Lab](https://tony-hao.github.io/TAMLab/index.html). Here is my [CV](https://drive.google.com/file/d/1toQGLPwHlV_q2muU-oMUvIauKz4ijzBb/view?usp=drive_link).
 
 My research interests include multimodal representation learning, natural language processing, multilingual lexical semantics, large language/vision-language models. See my Publications (mostly up to date) or [Google Scholar](https://scholar.google.com.hk/citations?user=rNsndk0AAAAJ) page for papers and more information.
 
-I am a travel enthusiast. In the past three years, I have been to Shanghai, Hangzhou, Changsha, Xiangxi Tujia and Miao Autonomous Prefecture, Wuhan, Chaohu, Huangshan, Chengdu, Dujiangyan, Aba Tibetan Autonomous Prefecture, Tianjin, Beijing, Macau, Hong Kong, Seoul, Guilin, Bangkok, Qingyuan, Kunming, Dali, and Lijiang. Traveling around the world is one of my dreams.
+I am a travel enthusiast. In the past three years, I have been to Shanghai, Hangzhou, Changsha, Xiangxi Tujia and Miao Autonomous Prefecture, Wuhan, Chaohu, Huangshan, Chengdu, Dujiangyan, Aba Tibetan Autonomous Prefecture, Tianjin, Beijing, Macau, Hong Kong, Seoul, Guilin, Bangkok, Qingyuan, Kunming, Dali, Lijiang and Singapore. Traveling around the world is one of my dreams.
 
 I am also one of the founders of the Studio of Empirical Methods in Linguistics (语言学实证思辨坊, LingX) that provides consulting services and technical support in quantitative linguistics, computational linguistics and natural language processing. The studio has designed and launched a series of courses titled Text Mining and Python Programming and has organized online academic training sessions, attended by over 400 teachers and students from various universities. I am the principal instructor for the courses.
 
-Due to some unexpected changes, I missed the 2024-2025 PhD application season. Currently, I am a research assistant at SCNU advised by Professor Hao and pursuing a PhD position for Spring/Fall 2026. I hope to further delve into research I'm passionate about and make greater contributions to the field of artificial intelligence.
+Due to some unexpected changes, I missed the 2024-2025 PhD application season. Currently, I am a research assistant at SCNU advised by Professor Hao and looking for a PhD position for Spring/Fall 2026. I hope to further delve into research I'm passionate about and make greater contributions to the field of artificial intelligence.
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉🎉 A first-author paper is accepted by [AAAI2026] (CCF A)!
 - *2025.08.21*: &nbsp;🎉🎉 A co-authored paper is accepted by [EMNLP2025](https://2025.emnlp.org/) main conference (CCF B)! Congrats to 家乐 and 雪莲!
 - *2025.04.29*: &nbsp;🎉🎉 A first-author paper is accepted by [IJCAI2025](https://2025.ijcai.org/) (CCF A)! See you in Guangzhou!
 - *2024.05.30*: &nbsp;🎉🎉 I will be joining [The Education University of Hong Kong](https://www.eduhk.hk/en/) as a 6-month research assistant from summer 2024, co-advised by Professor [Guandong Xu](https://repository.eduhk.hk/en/persons/guandong%E5%BE%90%E8%B2%AB%E6%9D%B1-xu). I would like to thank Professor Tianyong Hao for granting me the opportunity to go abroad for exchange!
