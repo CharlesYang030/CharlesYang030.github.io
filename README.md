@@ -34,10 +34,13 @@ The implementation uses the owner's information and photo. Personal illustration
 - SkillLens: https://arxiv.org/abs/2605.23899
 - SkillLens figure: https://microsoft.github.io/SkillLens/static/images/overview.png
 - CitationClaw description and project links: https://github.com/VisionXLab/CitationClaw
+- CitationClaw official logo: https://visionxlab.github.io/CitationClaw/assets/logo.png (stored locally without modification).
 - Portrait: the owner's existing homepage photo.
 - Fonts: Pacifico, Fraunces, Newsreader, Archivo, and Space Mono from Google Fonts. Each font's SIL Open Font License is included in `site-assets/fonts/`.
 
 Both papers are 2026 arXiv preprints, under review per the September CV. The star count is a dated snapshot: SkillOpt had 17,273 GitHub stars on September 20, 2026. Qihao Yang's equal-contribution status comes from the owner-provided CV.
+
+CitationClaw's 313 GitHub stars were verified through the GitHub API on September 20, 2026. This is a static snapshot; edit its visible count and tooltip in `index.html` when updating. Research phrases use `.ink-mark` (amber) and `.keyword` (blue) for marker highlights that support line wrapping. Author names use `.me` for a hand-drawn underline; text links use subtle wavy underlines.
 
 The site loads its fonts and figures locally. Content remains visible without JavaScript. The News dialog supports keyboard navigation, Escape dismissal, and focus return; motion respects `prefers-reduced-motion`.
 
