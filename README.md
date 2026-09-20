@@ -1,41 +1,41 @@
 # Qihao Yang — academic homepage
 
-An original, lightweight academic homepage for Qihao Yang (杨起豪), a Ph.D. student at Shanghai Jiao Tong University. Content is limited to the current doctoral affiliation and two 2026 preprints selected by the owner: SkillOpt and SkillLens.
+Personal homepage for Qihao Yang (杨起豪), a Ph.D. student at the School of Artificial Intelligence, Shanghai Jiao Tong University. Only the current doctoral affiliation and the two owner-selected 2026 works, **SkillOpt** and **SkillLens**, are displayed.
 
-## Run locally
+## Preview and deployment
 
-No build step or packages are required. Open `index.html`, or run:
+No build step is needed. Open `index.html`, or run:
 
 ```sh
 python3 -m http.server 18765 --bind 127.0.0.1
 ```
 
-Visit http://127.0.0.1:18765. GitHub Pages serves the root of `main`; `.nojekyll` disables Jekyll processing.
+GitHub Pages serves the root of `main`. `.nojekyll` disables Jekyll processing.
 
-## Edit
+## Editing
 
-- `index.html`: biography, paper records, links, and metadata.
-- `style.css`: responsive layout, colors, typography, motion, and print layout.
-- `script.js`: scroll progress, progressive reveal, and animation control.
-- `site-assets/`: the owner's existing portrait and an original SVG favicon.
+- `index.html`: biography, research directions, two paper records, contact links, and news.
+- `style.css`: responsive layout and appearance.
+- `script.js`: active navigation and the accessible News dialog.
+- `site-assets/`: portrait, paper figures, favicon, and locally hosted fonts.
 
-When adding a paper, update the work count as well as the paper list. Clearly distinguish accepted/published work from preprints. The GitHub star figure is a dated snapshot, not a live count. The full CV is intentionally not published because it includes earlier education and research outside this page's scope.
+All biography and doctoral details are sourced from the owner's September CV. The full CV and earlier education are intentionally omitted. The owner explicitly requested that all papers other than SkillOpt and SkillLens be excluded.
 
-## Content verification — 2026-09-20
+## Visual reference
 
-The owner-provided September CV supplies the doctoral start date (September 2026), school, group, three advisors, research directions, and Qihao Yang's equal-contribution designations. Google Scholar was consulted, and publication facts were verified against the original arXiv pages. The owner explicitly requested that only SkillOpt and SkillLens appear on the homepage.
+At the owner's request, the layout closely follows [Zisu Huang's homepage](https://huangzisu.github.io/): 960px content area, Pacifico name, Newsreader body, Fraunces headings, Archivo annotations, a circular portrait, blue links, thin dividers, and two-column paper cards. The earlier terracotta palette, oversized introduction, section-number sidebar, ticker, and abstract paper banner have been replaced.
 
-| Work      | Status shown | Source                           |
-| --------- | ------------ | -------------------------------- |
-| SkillOpt  | arXiv 2026   | https://arxiv.org/abs/2605.23904 |
-| SkillLens | arXiv 2026   | https://arxiv.org/abs/2605.23899 |
+The implementation uses the owner's information and photo. Personal illustrations and the tennis interaction from the reference site are not included. News contains only the owner's doctoral enrollment and the two public paper releases.
 
-SkillOpt had 17,273 GitHub stars on the verification date: https://github.com/microsoft/SkillOpt. No acceptance claim is made for submitted manuscripts. Other papers are omitted at the owner’s request. Earlier degrees, papers, honors, and the former Ph.D.-seeking text are omitted.
+## Sources and assets
 
-## Design
+- SkillOpt: https://arxiv.org/abs/2605.23904
+- SkillOpt figure: https://microsoft.github.io/SkillOpt/skillopt-assets/teaser-1.png
+- SkillLens: https://arxiv.org/abs/2605.23899
+- SkillLens figure: https://microsoft.github.io/SkillLens/static/images/overview.png
+- Portrait: the owner's existing homepage photo.
+- Fonts: Pacifico, Fraunces, Newsreader, Archivo, and Space Mono from Google Fonts. Each font's SIL Open Font License is included in `site-assets/fonts/`.
 
-Warm paper, ink, muted olive, and terracotta; editorial serif typography; numbered research sections; a mountain portrait; and the English expression “Onward and upward.” The SkillOpt banner is an original conceptual illustration, not a figure or quantitative result from the paper.
+Both papers are 2026 arXiv preprints, under review per the September CV. The star count is a dated snapshot: SkillOpt had 17,273 GitHub stars on September 20, 2026. Qihao Yang's equal-contribution status comes from the owner-provided CV.
 
-References supplied by the owner: https://huangzisu.github.io/ (editorial clarity and academic writing), https://cuzyoung.github.io/ZiyangGong.github.io/ (lightweight movement). No reference-site source code, personal copy, or assets were copied.
-
-Content remains readable with JavaScript disabled. Motion respects `prefers-reduced-motion`, and the moving strip has a pause control. All assets are served locally; there are no third-party fonts, tracking scripts, or runtime dependencies.
+The site loads its fonts and figures locally. Content remains visible without JavaScript. The News dialog supports keyboard navigation, Escape dismissal, and focus return; motion respects `prefers-reduced-motion`.

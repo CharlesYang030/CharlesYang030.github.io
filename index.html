@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f8f7f3" />
-    <title>Qihao Yang · Shanghai Jiao Tong University</title>
+    <meta name="theme-color" content="#fafbf9" />
+    <title>Qihao Yang | Homepage</title>
     <meta
       name="description"
-      content="Qihao Yang (杨起豪), Ph.D. student at Shanghai Jiao Tong University. Research in self-evolving agents, embodied spatial intelligence, and scientific reasoning. Publications and preprints, 2026."
+      content="Qihao Yang (杨起豪), Ph.D. student at Shanghai Jiao Tong University. Research on self-evolving agents and embodied spatial intelligence. Selected work: SkillOpt and SkillLens."
     />
     <link rel="canonical" href="https://charlesyang030.github.io/" />
-    <meta property="og:title" content="Qihao Yang · Onward and upward." />
+    <meta property="og:title" content="Qihao Yang | Homepage" />
     <meta
       property="og:description"
-      content="Ph.D. student at Shanghai Jiao Tong University. Self-evolving agents & embodied spatial intelligence."
+      content="Ph.D. student at Shanghai Jiao Tong University. Self-evolving agents and embodied spatial intelligence."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://charlesyang030.github.io/" />
@@ -22,304 +22,331 @@
       content="https://charlesyang030.github.io/site-assets/qihao-yang.jpg"
     />
     <link rel="icon" type="image/svg+xml" href="site-assets/favicon.svg" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <link
+      rel="preload"
+      href="site-assets/fonts/pacifico.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="site-assets/fonts/newsreader.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="site-assets/fonts.css" />
+    <link rel="stylesheet" href="style.css?v=journal-2" />
+    <script src="script.js?v=journal-2" defer></script>
   </head>
   <body id="top">
-    <a class="skip-link" href="#main">Skip to content</a>
-    <div class="reading-progress" aria-hidden="true"></div>
-    <header class="header">
-      <a class="wordmark" href="#top" aria-label="Qihao Yang, back to top"
-        >qy<span>↗</span></a
-      >
+    <a class="skip-link" href="#about">Skip to content</a>
+    <svg
+      class="icon-library"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <defs>
+        <symbol id="icon-mail" viewBox="0 0 24 24">
+          <rect
+            x="3"
+            y="5"
+            width="18"
+            height="14"
+            rx="2"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+          />
+          <path
+            d="m3 6 9 7 9-7"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+          />
+        </symbol>
+        <symbol id="icon-scholar" viewBox="0 0 24 24">
+          <path
+            d="m1 9 11-7 11 7-11 7zM5 13v5c4 4 10 4 14 0v-5l-7 5z"
+            fill="currentColor"
+          />
+        </symbol>
+        <symbol id="icon-github" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M12 .8a11.3 11.3 0 0 0-3.6 22c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.6-1.3-1.6-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.3 1 .1-.7.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.6 0-1.2.4-2.2 1.2-3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.1 1.2a10.9 10.9 0 0 1 5.7 0C16.9 5.2 18 5.5 18 5.5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3 0 4.3-2.7 5.3-5.3 5.6.4.4.8 1 .8 2.1v3c0 .3.2.6.8.5A11.3 11.3 0 0 0 12 .8z"
+          />
+        </symbol>
+        <symbol id="icon-news" viewBox="0 0 32 32">
+          <path
+            d="m4 14 24-10-7 24-5-10-12-4Zm12 4L28 4M16 18l-1 8 6-4"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linejoin="round"
+          />
+        </symbol>
+      </defs>
+    </svg>
+    <header class="navigation shell">
       <nav aria-label="Main navigation">
         <a href="#about" aria-current="location">About</a>
         <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+        <button
+          type="button"
+          data-news-open
+          aria-haspopup="dialog"
+          aria-controls="news"
+          hidden
+        >
+          News
+        </button>
+        <a href="#publications">Selected Work</a>
       </nav>
     </header>
-    <main id="main">
-      <section class="hero" id="about" aria-labelledby="name">
-        <div class="hero-copy">
-          <p class="eyebrow">
-            <span class="status-dot"></span> A NEW CHAPTER · SHANGHAI, 2026
-          </p>
-          <h1 id="name">
-            Qihao Yang<span class="chinese" lang="zh-CN">杨起豪</span>
-          </h1>
-          <p class="role">
-            Ph.D. student <span>/</span> Shanghai Jiao Tong University
-          </p>
-          <div class="intro">
+    <main class="shell">
+      <section class="intro" id="about" aria-labelledby="name">
+        <div class="bio">
+          <div class="bio-text">
+            <div class="bio-heading">
+              <h1 id="name">Qihao Yang</h1>
+              <ul class="contact-links" aria-label="Contact links">
+                <li>
+                  <a href="mailto:yeung.qh@gmail.com"
+                    ><svg class="icon" aria-hidden="true">
+                      <use href="#icon-mail" /></svg
+                    >Email</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://scholar.google.com/citations?user=rNsndk0AAAAJ&amp;hl=en"
+                    ><svg class="icon" aria-hidden="true">
+                      <use href="#icon-scholar" /></svg
+                    >Google Scholar</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/CharlesYang030"
+                    ><svg class="icon" aria-hidden="true">
+                      <use href="#icon-github" /></svg
+                    >GitHub</a
+                  >
+                </li>
+              </ul>
+            </div>
             <p>
-              Hi, I'm Qihao. I joined the
+              Hi! I'm <strong>Qihao (<span lang="zh-CN">杨起豪</span>)</strong>,
+              a Ph.D. student at the
               <a href="https://soai.sjtu.edu.cn/"
                 >School of Artificial Intelligence</a
-              >
-              at
-              <a href="https://en.sjtu.edu.cn/"
-                >Shanghai Jiao Tong University</a
-              >
-              in September 2026, as part of
-              <strong>RethinkLab @ VisionLab</strong>.
+              >,
+              <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a
+              >, and a member of <strong>RethinkLab @ VisionLab</strong>.
             </p>
             <p>
-              I am advised by <a href="https://yangxue.site/">Xue Yang</a>,
+              I joined SJTU in September 2026 and am advised by
+              <a href="https://yangxue.site/">Xue Yang</a>,
               <a
                 href="https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/zhongzhihang"
                 >Zhihang Zhong</a
               >, and
               <a href="https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/yanjunchi"
                 >Junchi Yan</a
-              >. My research explores <strong>self-evolving agents</strong> and
-              <strong>embodied spatial intelligence</strong>—how agents learn
-              from experience, reason about the world, and keep improving.
+              >.
             </p>
+            <p class="motto">Onward and upward.</p>
           </div>
-          <div class="social-links">
-            <a href="mailto:yeung.qh@gmail.com"
-              >Email <span aria-hidden="true">↗</span></a
-            >
-            <a
-              href="https://scholar.google.com/citations?user=rNsndk0AAAAJ&amp;hl=en"
-              >Google Scholar <span aria-hidden="true">↗</span></a
-            >
-            <a href="https://github.com/CharlesYang030"
-              >GitHub <span aria-hidden="true">↗</span></a
-            >
-          </div>
-        </div>
-        <figure class="portrait">
-          <div class="photo-frame">
+          <figure class="portrait">
             <img
               src="site-assets/qihao-yang.jpg"
-              alt="Qihao Yang hiking in the mountains"
               width="1080"
               height="1080"
+              alt="Qihao Yang in the mountains"
               fetchpriority="high"
             />
-          </div>
-          <figcaption>
-            <span>Always looking ahead.</span><span aria-hidden="true">↗</span>
-          </figcaption>
-        </figure>
-        <div class="hero-footer">
-          <p>“Onward and upward.”</p>
-          <a href="#research"
-            >A little about my research <span aria-hidden="true">↓</span></a
-          >
+          </figure>
         </div>
       </section>
-
-      <section
-        class="section-grid research"
-        id="research"
-        aria-labelledby="research-title"
-      >
-        <div class="section-label">
-          <span class="eyebrow">01 / RESEARCH</span>
-          <h2 id="research-title">
-            Learning.<br />
-            Reasoning.<br />
-            <em>Evolving.</em>
-          </h2>
-        </div>
-        <div class="section-body">
-          <p class="section-lead">
-            I study how agents can turn experience into capability—and use it
-            beyond the tasks they already know.
-          </p>
-          <div class="research-topics">
-            <article>
-              <span class="topic-symbol" aria-hidden="true">↻</span>
-              <h3>Self-evolving agents</h3>
-              <p>
-                Reusable skills, feedback-driven improvement, and reliable agent
-                evaluation.
-              </p>
-            </article>
-            <article>
-              <span class="topic-symbol spatial" aria-hidden="true">⌖</span>
-              <h3>Embodied intelligence</h3>
-              <p>
-                Spatial understanding and long-horizon reasoning in interactive
-                environments.
-              </p>
-            </article>
-            <article>
-              <span class="topic-symbol" aria-hidden="true">⋈</span>
-              <h3>Scientific reasoning</h3>
-              <p>
-                Tracing how ideas evolve, and grounding new ideas in scientific
-                lineages.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <div
-        class="research-strip"
-        aria-label="Research themes: experience, skills, reasoning, discovery"
-      >
-        <div class="strip-window" aria-hidden="true">
-          <div class="strip-track">
-            <span
-              >EXPERIENCE <i>↗</i> SKILLS <i>↗</i> REASONING
-              <i>↗</i> DISCOVERY <i>↗</i></span
+      <section class="research" id="research" aria-labelledby="research-title">
+        <h2 id="research-title">
+          Research Interests<span class="period">.</span>
+        </h2>
+        <p>
+          My research focuses on <strong>self-evolving agents</strong> and
+          <strong>embodied spatial intelligence</strong>. I am interested in how
+          agents learn from experience, reason about the world, and develop more
+          reliable capabilities.
+        </p>
+        <p>In particular, I study two closely connected directions:</p>
+        <ul class="research-list">
+          <li>
+            <strong>Agent Self-Evolution:</strong
             ><span
-              >EXPERIENCE <i>↗</i> SKILLS <i>↗</i> REASONING
-              <i>↗</i> DISCOVERY <i>↗</i></span
+              >improving agents through reusable skills, feedback-driven
+              optimization, and systematic evaluation.</span
             >
-          </div>
-        </div>
-        <button
-          class="motion-toggle"
-          type="button"
-          aria-label="Pause animations"
-          aria-pressed="false"
-          hidden
-        >
-          <span aria-hidden="true">Ⅱ</span>
-        </button>
-      </div>
-
+          </li>
+          <li>
+            <strong>Embodied Spatial Intelligence:</strong
+            ><span
+              >understanding space and time, and supporting long-horizon
+              planning and reasoning in interactive environments.</span
+            >
+          </li>
+        </ul>
+      </section>
       <section
-        class="section-grid publications"
+        class="publications"
         id="publications"
         aria-labelledby="publications-title"
       >
-        <div class="section-label">
-          <span class="eyebrow">02 / SELECTED WORK</span>
+        <div class="section-heading">
           <h2 id="publications-title">
-            A year of<br />
-            <em>new ideas.</em>
+            Selected Work<span class="period">.</span>
           </h2>
-          <span class="year-mark" aria-hidden="true">2026</span>
-          <p class="small-note">
-            Selected preprints<br />
-            <span>* Equal contribution</span>
-          </p>
+          <p class="section-note"><sup>*</sup> denotes equal contribution.</p>
         </div>
-        <div class="section-body">
-          <div class="publication-toolbar">
-            <span class="eyebrow">AGENT SKILLS · 2026</span
-            ><span class="result-count">2 preprints</span>
-          </div>
-
-          <article class="paper featured" data-kind="preprint">
-            <div class="featured-art" aria-hidden="true">
-              <span class="art-label">THE SKILL EVOLUTION LOOP</span>
-              <div class="evolution-loop">
-                <span>Experience</span><b>↗</b><span>Skill</span><b>↘</b
-                ><span>Feedback</span><b>↙</b><span>Refinement</span><b>↖</b>
-              </div>
-              <span class="art-footnote"
-                >Learn from experience. Improve through feedback.</span
-              >
-            </div>
+        <div class="paper-grid">
+          <article class="paper">
+            <a
+              class="paper-figure"
+              href="https://arxiv.org/abs/2605.23904"
+              aria-label="Read the SkillOpt paper"
+              ><img
+                src="site-assets/skillopt.png"
+                alt="SkillOpt overview: skill optimization through model feedback, bounded edits, and validation"
+                width="1600"
+                height="900"
+                loading="lazy"
+            /></a>
             <div class="paper-meta">
-              <span class="venue">arXiv · 2026</span
-              ><span>AGENT SELF-EVOLUTION</span>
+              <span class="venue">arXiv 2026 · Under Review</span
+              ><span class="topics">Agent Skills / Self-Evolution</span>
             </div>
             <h3>
               <a href="https://arxiv.org/abs/2605.23904"
-                >SkillOpt <span aria-hidden="true">↗</span></a
+                >SkillOpt<span aria-hidden="true">↗</span></a
               >
             </h3>
             <p class="paper-title">
-              Executive Strategy for Self-Evolving Agent Skills
+              <a href="https://arxiv.org/abs/2605.23904"
+                >SkillOpt: Executive Strategy for Self-Evolving Agent Skills</a
+              >
             </p>
             <p class="authors">
-              Yifan Yang*, Ziyang Gong*, Weiquan Huang*,
-              <strong>Qihao Yang*</strong>, Ziwei Zhou*, Zisu Huang*, et al.
+              Yifan Yang<sup>*</sup>, Ziyang Gong<sup>*</sup>, Weiquan
+              Huang<sup>*</sup>,
+              <strong class="me">Qihao Yang<sup>*</sup></strong
+              >, Ziwei Zhou<sup>*</sup>, Zisu Huang<sup>*</sup>, et al.
             </p>
-            <p class="paper-description">
-              Training reusable agent skills in text space, with feedback-driven
-              edits and validation-gated updates.
+            <p class="paper-badges">
+              <a
+                href="https://github.com/microsoft/SkillOpt"
+                title="17,273 stars verified on September 20, 2026"
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#icon-github" /></svg
+                >17k+ GitHub stars</a
+              >
             </p>
             <div class="paper-links">
-              <a href="https://arxiv.org/abs/2605.23904">Paper ↗</a
-              ><a href="https://microsoft.github.io/SkillOpt/">Project ↗</a
-              ><a href="https://github.com/microsoft/SkillOpt">Code ↗</a
-              ><span
-                class="star-note"
-                title="17,273 GitHub stars, verified September 20, 2026"
-                >☆ 17k+ GitHub stars <small>Sep 2026</small></span
-              >
+              <a href="https://arxiv.org/abs/2605.23904">Paper</a
+              ><a href="https://microsoft.github.io/SkillOpt/">Website</a
+              ><a href="https://github.com/microsoft/SkillOpt">Code</a>
             </div>
           </article>
-
-          <article class="paper paper-row" data-kind="preprint">
-            <div class="paper-number" aria-hidden="true">02</div>
-            <div class="paper-content">
-              <div class="paper-meta">
-                <span class="venue">arXiv · 2026</span><span>AGENT SKILLS</span>
-              </div>
-              <h3>
-                <a href="https://arxiv.org/abs/2605.23899"
-                  >SkillLens <span aria-hidden="true">↗</span></a
-                >
-              </h3>
-              <p class="paper-title">
-                From Raw Experience to Skill Consumption: A Systematic Study of
-                Model-Generated Agent Skills
-              </p>
-              <p class="authors">
-                Zisu Huang*, Jingwen Xu*, Yifan Yang, Ziyang Gong,
-                <strong>Qihao Yang</strong>, et al.
-              </p>
-              <p class="paper-description">
-                Understanding when generated skills help, when they fail, and
-                how they transfer between agents.
-              </p>
-              <div class="paper-links">
-                <a href="https://arxiv.org/abs/2605.23899">Paper ↗</a
-                ><a href="https://microsoft.github.io/SkillLens/">Project ↗</a
-                ><a href="https://github.com/microsoft/SkillLens">Code ↗</a>
-              </div>
-            </div>
-          </article>
-
-          <div class="scholar-more">
+          <article class="paper">
             <a
-              href="https://scholar.google.com/citations?user=rNsndk0AAAAJ&amp;hl=en"
-              >Find me on Google Scholar <span aria-hidden="true">↗</span></a
-            >
-          </div>
+              class="paper-figure"
+              href="https://arxiv.org/abs/2605.23899"
+              aria-label="Read the SkillLens paper"
+              ><img
+                src="site-assets/skilllens.png"
+                alt="SkillLens framework: experience generation, skill extraction, and skill consumption"
+                width="1600"
+                height="900"
+                loading="lazy"
+            /></a>
+            <div class="paper-meta">
+              <span class="venue">arXiv 2026 · Under Review</span
+              ><span class="topics">Agent Skills / Empirical Study</span>
+            </div>
+            <h3>
+              <a href="https://arxiv.org/abs/2605.23899"
+                >SkillLens<span aria-hidden="true">↗</span></a
+              >
+            </h3>
+            <p class="paper-title">
+              <a href="https://arxiv.org/abs/2605.23899"
+                >From Raw Experience to Skill Consumption: A Systematic Study of
+                Model-Generated Agent Skills</a
+              >
+            </p>
+            <p class="authors">
+              Zisu Huang<sup>*</sup>, Jingwen Xu<sup>*</sup>, Yifan Yang, Ziyang
+              Gong, <strong class="me">Qihao Yang</strong>, et al.
+            </p>
+            <div class="paper-links">
+              <a href="https://arxiv.org/abs/2605.23899">Paper</a
+              ><a href="https://microsoft.github.io/SkillLens/">Website</a
+              ><a href="https://github.com/microsoft/SkillLens">Code</a>
+            </div>
+          </article>
         </div>
-      </section>
-
-      <section
-        class="section-grid contact"
-        id="contact"
-        aria-labelledby="contact-title"
-      >
-        <div class="section-label">
-          <span class="eyebrow">03 / SAY HELLO</span>
-          <h2 id="contact-title">
-            Good ideas start<br />
-            with a <em>conversation.</em>
-          </h2>
-        </div>
-        <div class="section-body">
-          <p>
-            Interested in self-evolving agents, embodied intelligence, or
-            scientific discovery? I'd be glad to exchange ideas.
-          </p>
-          <a class="email-link" href="mailto:yeung.qh@gmail.com"
-            >yeung.qh@gmail.com <span aria-hidden="true">↗</span></a
+        <p class="scholar-more">
+          More on
+          <a
+            href="https://scholar.google.com/citations?user=rNsndk0AAAAJ&amp;hl=en"
+            >Google Scholar <span aria-hidden="true">↗</span></a
           >
-          <p class="contact-location">
-            Shanghai Jiao Tong University · Shanghai, China
-          </p>
-        </div>
+        </p>
       </section>
+      <section class="closing" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <a href="mailto:yeung.qh@gmail.com"
+          >yeung.qh@gmail.com <span aria-hidden="true">↗</span></a
+        >
+      </section>
+      <footer>
+        <span>© 2026 Qihao Yang</span><a href="#top">Back to top ↑</a>
+      </footer>
     </main>
-    <footer>
-      <span>© 2026 Qihao Yang</span><span>Onward and upward.</span
-      ><a href="#top">Back to top ↑</a>
-    </footer>
+    <button
+      class="news-float"
+      type="button"
+      data-news-open
+      aria-label="Open news"
+      aria-haspopup="dialog"
+      aria-controls="news"
+      hidden
+    >
+      <svg aria-hidden="true"><use href="#icon-news" /></svg><span>News</span>
+    </button>
+    <dialog id="news" aria-labelledby="news-title">
+      <div class="dialog-heading">
+        <h2 id="news-title">News<span class="period">.</span></h2>
+        <button class="news-close" type="button" aria-label="Close news">
+          ×
+        </button>
+      </div>
+      <ol class="news-list">
+        <li>
+          <time datetime="2026-09">Sep 2026</time>
+          <p>
+            Started my Ph.D. at the School of Artificial Intelligence, Shanghai
+            Jiao Tong University.
+          </p>
+        </li>
+        <li>
+          <time datetime="2026-05">May 2026</time>
+          <p>
+            Released <a href="https://arxiv.org/abs/2605.23904">SkillOpt</a> and
+            <a href="https://arxiv.org/abs/2605.23899">SkillLens</a>, two works
+            on agent skill optimization and evaluation.
+          </p>
+        </li>
+      </ol>
+    </dialog>
   </body>
 </html>
