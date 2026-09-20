@@ -1,72 +1,41 @@
+# Qihao Yang — academic homepage
 
-<h1 align="center">
-AcadHomepage
-</h1>
+An original, lightweight academic homepage for Qihao Yang (杨起豪), a Ph.D. student at Shanghai Jiao Tong University. Content is limited to the current doctoral affiliation and two 2026 preprints selected by the owner: SkillOpt and SkillLens.
 
-<div align="center">
+## Run locally
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
-</div>
+No build step or packages are required. Open `index.html`, or run:
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+```sh
+python3 -m http.server 18765 --bind 127.0.0.1
+```
 
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
+Visit http://127.0.0.1:18765. GitHub Pages serves the root of `main`; `.nojekyll` disables Jekyll processing.
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+## Edit
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+- `index.html`: biography, paper records, links, and metadata.
+- `style.css`: responsive layout, colors, typography, motion, and print layout.
+- `script.js`: scroll progress, progressive reveal, and animation control.
+- `site-assets/`: the owner's existing portrait and an original SVG favicon.
 
-## Quick Start
+When adding a paper, update the work count as well as the paper list. Clearly distinguish accepted/published work from preprints. The GitHub star figure is a dated snapshot, not a live count. The full CV is intentionally not published because it includes earlier education and research outside this page's scope.
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+## Content verification — 2026-09-20
 
-## Debug Locally
+The owner-provided September CV supplies the doctoral start date (September 2026), school, group, three advisors, research directions, and Qihao Yang's equal-contribution designations. Google Scholar was consulted, and publication facts were verified against the original arXiv pages. The owner explicitly requested that only SkillOpt and SkillLens appear on the homepage.
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+| Work      | Status shown | Source                           |
+| --------- | ------------ | -------------------------------- |
+| SkillOpt  | arXiv 2026   | https://arxiv.org/abs/2605.23904 |
+| SkillLens | arXiv 2026   | https://arxiv.org/abs/2605.23899 |
 
-# Acknowledges
+SkillOpt had 17,273 GitHub stars on the verification date: https://github.com/microsoft/SkillOpt. No acceptance claim is made for submitted manuscripts. Other papers are omitted at the owner’s request. Earlier degrees, papers, honors, and the former Ph.D.-seeking text are omitted.
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+## Design
+
+Warm paper, ink, muted olive, and terracotta; editorial serif typography; numbered research sections; a mountain portrait; and the English expression “Onward and upward.” The SkillOpt banner is an original conceptual illustration, not a figure or quantitative result from the paper.
+
+References supplied by the owner: https://huangzisu.github.io/ (editorial clarity and academic writing), https://cuzyoung.github.io/ZiyangGong.github.io/ (lightweight movement). No reference-site source code, personal copy, or assets were copied.
+
+Content remains readable with JavaScript disabled. Motion respects `prefers-reduced-motion`, and the moving strip has a pause control. All assets are served locally; there are no third-party fonts, tracking scripts, or runtime dependencies.
