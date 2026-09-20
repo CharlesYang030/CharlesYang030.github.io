@@ -76,7 +76,7 @@
     );
   }
   const sections = [
-    ...document.querySelectorAll("#about, #research, #publications"),
+    ...document.querySelectorAll("#about, #research, #publications, #projects"),
   ];
   const links = [...document.querySelectorAll("nav a")];
   let pending = false;
@@ -86,6 +86,8 @@
       if (section.getBoundingClientRect().top <= innerHeight * 0.3)
         active = section.id;
     });
+    if (scrollY + innerHeight >= document.documentElement.scrollHeight - 2)
+      active = sections[sections.length - 1].id;
     links.forEach((link) => {
       if (link.hash === "#" + active)
         link.setAttribute("aria-current", "location");

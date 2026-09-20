@@ -687,8 +687,13 @@ h2 {
   margin-bottom: 15px;
 }
 .closing > a {
+  display: block;
+  width: fit-content;
   font: 500 15px/1.72 var(--sans);
   text-decoration-color: #aab9b2;
+}
+.closing > a + a {
+  margin-top: 8px;
 }
 footer {
   display: flex;
@@ -1021,7 +1026,7 @@ body:has(dialog[open]) {
   }
   nav {
     font-size: 12px;
-    gap: 13px;
+    gap: 8px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
