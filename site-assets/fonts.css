@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Ma Shan Zheng";
+  font-family: "Yuji Boku";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("fonts/ma-shan-zheng-name.ttf") format("truetype");
-  unicode-range: U+6768, U+8D77, U+8C6A;
+  src: url("fonts/yuji-boku-name.ttf") format("truetype");
+  unicode-range: U+694A, U+8D77, U+8C6A;
 }
 @font-face {
   font-family: "Pacifico";

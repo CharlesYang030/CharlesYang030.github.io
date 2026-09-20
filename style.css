@@ -147,23 +147,24 @@ nav button[aria-expanded="true"]::after {
   padding-bottom: 10px;
 }
 .bio {
+  position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 195px;
-  gap: 46px;
+  grid-template-columns: minmax(0, 1fr) 184px;
+  gap: 24px;
   align-items: center;
 }
 .bio-heading {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
-  gap: 10px 30px;
+  gap: 10px 18px;
   margin-bottom: 28px;
 }
 h1 {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
-  gap: 4px 24px;
+  gap: 4px 20px;
   font:
     400 56px/1.35 "Pacifico",
     cursive;
@@ -174,7 +175,7 @@ h1 {
 }
 .contact-links {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   font: 500 14px/1.5 var(--sans);
   white-space: nowrap;
 }
@@ -193,7 +194,7 @@ h1 {
   margin-top: 18px;
 }
 .chinese-name {
-  font-family: "Ma Shan Zheng", "Kaiti SC", KaiTi, cursive;
+  font-family: "Yuji Boku", "Kaiti TC", KaiTi, cursive;
   font-size: 0.78em;
   font-weight: 400;
   line-height: 1.25;
@@ -211,17 +212,61 @@ h1 {
   margin-top: 12px;
 }
 .portrait {
+  position: relative;
   width: 184px;
   height: 184px;
-  border-radius: 50%;
-  overflow: hidden;
   justify-self: center;
 }
-.portrait img {
+.portrait-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.portrait-photo {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 46% 42%;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 240ms ease,
+    visibility 240ms ease;
+}
+.portrait-photo.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+.portrait-photo--universal {
+  object-position: 55% 100%;
+  transform: scale(1.7);
+  transform-origin: 55% 48%;
+}
+.portrait-switch {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--blue);
+  box-shadow: 0 2px 8px #171d2210;
+}
+.portrait-switch:hover {
+  background: #edf2f8;
+}
+.portrait-switch svg {
+  width: 100%;
+  height: 100%;
 }
 .affiliations {
   position: relative;
@@ -760,6 +805,22 @@ body:has(dialog[open]) {
     width: 54px;
   }
 }
+@media (max-width: 1100px) {
+  .bio-heading {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px 16px;
+  }
+  h1 {
+    display: contents;
+  }
+  .english-name {
+    grid-column: 1 / -1;
+  }
+  .contact-links {
+    align-self: center;
+  }
+}
 @media (max-width: 760px) {
   .project {
     grid-template-columns: 1fr;
@@ -776,16 +837,16 @@ body:has(dialog[open]) {
     padding: 28px 0 20px;
   }
   .bio {
-    grid-template-columns: minmax(0, 1fr) 150px;
-    gap: 32px;
+    grid-template-columns: minmax(0, 1fr) 120px;
+    gap: 24px;
     align-items: start;
   }
   h1 {
     font-size: 52px;
   }
   .portrait {
-    width: 148px;
-    height: 148px;
+    width: 120px;
+    height: 120px;
     margin-top: 63px;
   }
   .paper-grid {
@@ -802,6 +863,24 @@ body:has(dialog[open]) {
     padding-bottom: 33px;
   }
 }
+@media (min-width: 541px) and (max-width: 760px) {
+  .bio {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .bio-text {
+    display: contents;
+  }
+  .bio-heading {
+    grid-template-rows: 120px auto;
+    margin-bottom: 0;
+  }
+  .portrait {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+  }
+}
 @media (max-width: 540px) {
   .news-float {
     display: none;
@@ -815,12 +894,17 @@ body:has(dialog[open]) {
     justify-content: flex-end;
   }
   .bio {
-    grid-template-columns: minmax(0, 1fr) 110px;
+    grid-template-columns: minmax(0, 1fr);
     gap: 18px;
   }
-  .bio-text,
-  .bio-heading {
+  .bio-text {
     display: contents;
+  }
+  .bio-heading {
+    grid-column: 1 / -1;
+    grid-template-rows: 110px auto;
+    gap: 12px;
+    margin-bottom: 4px;
   }
   h1 {
     font-size: 40px;
@@ -830,6 +914,9 @@ body:has(dialog[open]) {
     min-width: 0;
   }
   .portrait {
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 110px;
     height: 110px;
     grid-column: 2;
@@ -837,9 +924,15 @@ body:has(dialog[open]) {
     margin-top: 0;
   }
   .contact-links {
-    grid-column: 1/-1;
-    grid-row: 2;
-    gap: 14px;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .portrait-switch {
+    width: 34px;
+    height: 34px;
+    padding: 7px;
+    right: -2px;
+    bottom: -2px;
   }
   .bio-text > p {
     grid-column: 1/-1;
@@ -909,9 +1002,8 @@ body:has(dialog[open]) {
     max-width: none;
     text-align: left;
   }
-  .bio {
-    grid-template-columns: minmax(0, 1fr) 86px;
-    gap: 16px;
+  .bio-heading {
+    grid-template-rows: 86px auto;
   }
   h1 {
     font-size: 34px;
@@ -922,7 +1014,10 @@ body:has(dialog[open]) {
   }
   .contact-links {
     font-size: 12px;
-    gap: 12px;
+    gap: 10px;
+  }
+  .contact-links .icon {
+    display: none;
   }
   nav {
     font-size: 12px;

@@ -36,9 +36,9 @@
       type="font/woff2"
       crossorigin
     />
-    <link rel="stylesheet" href="site-assets/fonts.css?v=chinese-name-1" />
-    <link rel="stylesheet" href="style.css?v=chinese-name-1" />
-    <script src="script.js?v=affiliations-3" defer></script>
+    <link rel="stylesheet" href="site-assets/fonts.css?v=portrait-1" />
+    <link rel="stylesheet" href="style.css?v=portrait-1" />
+    <script src="script.js?v=portrait-1" defer></script>
   </head>
   <body id="top">
     <a class="skip-link" href="#about">Skip to content</a>
@@ -112,7 +112,7 @@
             <div class="bio-heading">
               <h1 id="name">
                 <span class="english-name">Qihao Yang</span>
-                <span class="chinese-name" lang="zh-CN">杨起豪</span>
+                <span class="chinese-name" lang="zh-Hant">楊起豪</span>
               </h1>
               <ul class="contact-links" aria-label="Contact links">
                 <li>
@@ -140,8 +140,9 @@
               </ul>
             </div>
             <p>
-              Hi! I'm <strong>Qihao (<span lang="zh-CN">杨起豪</span>)</strong>,
-              a Ph.D. student at the
+              Hi! I'm
+              <strong>Qihao (<span lang="zh-Hant">楊起豪</span>)</strong>, a
+              Ph.D. student at the
               <a href="https://soai.sjtu.edu.cn/"
                 >School of Artificial Intelligence</a
               >,
@@ -158,13 +159,47 @@
             <p class="motto">Onward and upward.</p>
           </div>
           <figure class="portrait">
-            <img
-              src="site-assets/qihao-yang.jpg"
-              width="1080"
-              height="1080"
-              alt="Qihao Yang in the mountains"
-              fetchpriority="high"
-            />
+            <div class="portrait-frame" id="portrait-photos">
+              <img
+                class="portrait-photo is-active"
+                src="site-assets/qihao-yang.jpg"
+                width="1080"
+                height="1080"
+                alt="Qihao Yang in the mountains"
+                fetchpriority="high"
+              />
+              <img
+                class="portrait-photo portrait-photo--universal"
+                src="site-assets/qihao-yang-universal.jpg"
+                width="1279"
+                height="1706"
+                alt="Qihao Yang in front of the Universal globe"
+                aria-hidden="true"
+                loading="lazy"
+              />
+            </div>
+            <button
+              class="portrait-switch"
+              type="button"
+              aria-label="Show the Universal globe photo"
+              title="Switch photo"
+              aria-controls="portrait-photos"
+              hidden
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M20 7h-9M17 4l3 3-3 3M4 17h9M7 14l-3 3 3 3" />
+                <rect x="3" y="3" width="5" height="6" rx="1" />
+                <rect x="16" y="15" width="5" height="6" rx="1" />
+              </svg>
+            </button>
           </figure>
         </div>
         <div

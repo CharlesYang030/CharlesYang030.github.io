@@ -1,5 +1,34 @@
 (() => {
   "use strict";
+  const portraitSwitch = document.querySelector(".portrait-switch");
+  const portraitPhotos = [...document.querySelectorAll(".portrait-photo")];
+  if (portraitSwitch && portraitPhotos.length === 2) {
+    let activePhoto = 0;
+    portraitSwitch.hidden = false;
+    portraitSwitch.addEventListener("click", async () => {
+      if (portraitSwitch.disabled) return;
+      portraitSwitch.disabled = true;
+      const nextPhoto = 1 - activePhoto;
+      try {
+        await portraitPhotos[nextPhoto].decode();
+        portraitPhotos.forEach((photo, index) => {
+          photo.classList.toggle("is-active", index === nextPhoto);
+          photo.setAttribute("aria-hidden", String(index !== nextPhoto));
+        });
+        activePhoto = nextPhoto;
+        portraitSwitch.setAttribute(
+          "aria-label",
+          activePhoto === 0
+            ? "Show the Universal globe photo"
+            : "Show the mountain photo",
+        );
+      } catch {
+        // Keep the current photo available if the alternative cannot load.
+      } finally {
+        portraitSwitch.disabled = false;
+      }
+    });
+  }
   const affiliations = document.querySelector(".affiliations");
   if (affiliations) {
     const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");

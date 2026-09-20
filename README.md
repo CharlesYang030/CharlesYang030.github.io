@@ -37,7 +37,9 @@ The implementation uses the owner's information and photo. Personal illustration
 - CitationClaw official logo: https://visionxlab.github.io/CitationClaw/assets/logo.png (stored locally without modification).
 - Portrait: the owner's existing homepage photo.
 - Fonts: Pacifico, Fraunces, Newsreader, Archivo, and Space Mono from Google Fonts. Each font's SIL Open Font License is included in `site-assets/fonts/`.
-- Chinese name: Ma Shan Zheng from [Google Fonts](https://github.com/googlefonts/mashanzheng), hosted locally as a three-character subset for “杨起豪”, with its SIL Open Font License. `.chinese-name` controls its handwritten appearance and size; changing the name requires updating the font subset and its Unicode range in `site-assets/fonts.css`.
+- Chinese name: Yuji Boku from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/yujiboku), hosted locally as a three-character subset for “楊起豪”, with its SIL Open Font License. All three traditional characters use the same brush font. `.chinese-name` controls its appearance and size; changing the name requires updating the font subset and its Unicode range in `site-assets/fonts.css`.
+
+The heading places contact links after the Chinese name. Narrow screens move the English name to its own row while keeping the Chinese name and contact links together. The portrait's lower-right button switches between the original mountain photo and the owner-provided Universal globe photo (`site-assets/qihao-yang-universal.jpg`). The original photo remains the default; the switch supports mouse, touch, and keyboard and is hidden without JavaScript. The supplied photo is stored unchanged; `.portrait-photo--universal` controls its circular framing in CSS.
 
 Both papers are 2026 arXiv preprints, under review per the September CV. The star count is a dated snapshot: SkillOpt had 17,273 GitHub stars on September 20, 2026. Qihao Yang's equal-contribution status comes from the owner-provided CV.
 
