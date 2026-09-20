@@ -39,3 +39,13 @@ The implementation uses the owner's information and photo. Personal illustration
 Both papers are 2026 arXiv preprints, under review per the September CV. The star count is a dated snapshot: SkillOpt had 17,273 GitHub stars on September 20, 2026. Qihao Yang's equal-contribution status comes from the owner-provided CV.
 
 The site loads its fonts and figures locally. Content remains visible without JavaScript. The News dialog supports keyboard navigation, Escape dismissal, and focus return; motion respects `prefers-reduced-motion`.
+
+## Affiliation strip
+
+The strip beneath the biography shows only Shanghai Jiao Tong University (Ph.D.), Microsoft (Internship), and Huawei (Internship), as requested by the owner. Edit the original three items in `.affiliation-set` in `index.html`; JavaScript creates the visual duplicate used for seamless scrolling. The duplicate is hidden from assistive technology. The strip pauses on hover or through its pause button, and displays a static set when reduced motion is requested or JavaScript is unavailable.
+
+Logo sources:
+
+- SJTU: https://cuzyoung.github.io/ZiyangGong.github.io/assets/logos/sjtu.png
+- Microsoft: https://cuzyoung.github.io/ZiyangGong.github.io/assets/logos/microsoft.svg
+- Huawei: https://www.huawei.com/-/media/hcomponent-header/1.0.1.20260908162100/component/img/huawei_logo.png
