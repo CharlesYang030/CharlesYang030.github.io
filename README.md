@@ -42,10 +42,13 @@ The site loads its fonts and figures locally. Content remains visible without Ja
 
 ## Affiliation strip
 
-The strip beneath the biography shows only Shanghai Jiao Tong University (Ph.D.), Microsoft (Internship), and Huawei (Internship), as requested by the owner. Edit the original three items in `.affiliation-set` in `index.html`; JavaScript creates the visual duplicate used for seamless scrolling. The duplicate is hidden from assistive technology. The compact strip uses larger logos, pauses on hover, and displays a static set when reduced motion is requested or JavaScript is unavailable.
+The strip beneath the biography shows Shanghai Jiao Tong University (Ph.D.), Tsinghua University (Internship), LTTC at EdUHK (Visiting), Microsoft (Internship), and Huawei (Internship), in that order, as requested by the owner. Edit the original five items in `.affiliation-set` in `index.html`; JavaScript creates the visual duplicate used for seamless scrolling. The duplicate is hidden from assistive technology. The compact strip uses larger logos, pauses on hover, and displays a manually scrollable static set when reduced motion is requested or JavaScript is unavailable. On small screens, the icons keep their size and slide into view rather than shrinking to fit five at once.
 
 Logo sources:
 
 - SJTU: https://cuzyoung.github.io/ZiyangGong.github.io/assets/logos/sjtu.png
 - Microsoft: https://cuzyoung.github.io/ZiyangGong.github.io/assets/logos/microsoft.svg
 - Huawei: https://www.huawei.com/-/media/hcomponent-header/1.0.1.20260908162100/component/img/huawei_logo.png
+
+- Tsinghua: https://cuzyoung.github.io/ZiyangGong.github.io/assets/logos/thu.png
+- LTTC EdUHK: https://lttc.eduhk.hk/wp-content/uploads/2024/09/LTTC-Logo.svg

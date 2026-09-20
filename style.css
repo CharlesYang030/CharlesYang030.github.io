@@ -214,7 +214,7 @@ h1 {
   border-top: 1px solid var(--line);
 }
 .affiliation-viewport {
-  max-width: 660px;
+  max-width: 960px;
   margin-inline: auto;
   overflow: hidden;
   mask-image: linear-gradient(
@@ -227,12 +227,13 @@ h1 {
 }
 .affiliation-track {
   display: flex;
+  width: max(100%, 960px);
 }
 .affiliation-set {
   flex: 0 0 100%;
   min-width: 0;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 .affiliation {
   display: flex;
@@ -255,7 +256,8 @@ h1 {
   max-height: 80px;
   object-fit: contain;
 }
-.affiliation-logo .sjtu-logo {
+.affiliation-logo .sjtu-logo,
+.affiliation-logo .tsinghua-logo {
   width: 80px;
 }
 .affiliation-logo .microsoft-logo {
@@ -263,6 +265,23 @@ h1 {
 }
 .affiliation-logo .huawei-logo {
   width: 184px;
+}
+.affiliation-logo--lttc {
+  flex-direction: column;
+  gap: 4px;
+}
+.affiliation-logo .lttc-logo {
+  width: 164px;
+  max-height: 56px;
+}
+.affiliation-name {
+  color: var(--muted);
+  font: 500 10px/1.2 var(--sans);
+}
+.affiliations:not(.is-moving) .affiliation-viewport {
+  overflow-x: auto;
+  mask-image: none;
+  scrollbar-width: thin;
 }
 .affiliation-role {
   padding: 1px 8px;
@@ -274,7 +293,7 @@ h1 {
   white-space: nowrap;
 }
 .affiliations.is-moving .affiliation-track {
-  animation: affiliations-drift 36s linear infinite;
+  animation: affiliations-drift 52s linear infinite;
 }
 @media (hover: hover) {
   .affiliations:hover .affiliation-track {
@@ -304,17 +323,24 @@ h1 {
     gap: 4px;
     padding-inline: 3px;
   }
+  .affiliation-track {
+    width: 800px;
+  }
   .affiliation-logo {
     height: 64px;
   }
   .affiliation-logo img {
     max-height: 64px;
   }
-  .affiliation-logo .sjtu-logo {
+  .affiliation-logo .sjtu-logo,
+  .affiliation-logo .tsinghua-logo {
     width: 64px;
   }
   .affiliation-logo .microsoft-logo {
     width: 56px;
+  }
+  .affiliation-logo .lttc-logo {
+    max-height: 44px;
   }
   .affiliation-role {
     font-size: 10px;
