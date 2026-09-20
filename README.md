@@ -40,7 +40,7 @@ The implementation uses the owner's information and photo. Personal illustration
 
 Both papers are 2026 arXiv preprints, under review per the September CV. The star count is a dated snapshot: SkillOpt had 17,273 GitHub stars on September 20, 2026. Qihao Yang's equal-contribution status comes from the owner-provided CV.
 
-CitationClaw's 313 GitHub stars were verified through the GitHub API on September 20, 2026. This is a static snapshot; edit its visible count and tooltip in `index.html` when updating. Research phrases use `.ink-mark` (amber) and `.keyword` (blue) for marker highlights that support line wrapping. Author names use `.me` for a hand-drawn underline; text links use subtle wavy underlines.
+CitationClaw's 313 GitHub stars were verified through the GitHub API on September 20, 2026. This is a static snapshot; edit its visible count and tooltip in `index.html` when updating. Its linked logo replaces the separate text title. Research phrases use `.ink-mark` (amber) and `.keyword` (blue) for marker highlights that support line wrapping. Author names use `.me` for a hand-drawn underline; ordinary text links use straight underlines.
 
 The site loads its fonts and figures locally. Content remains visible without JavaScript. The News dialog supports keyboard navigation, Escape dismissal, and focus return; motion respects `prefers-reduced-motion`.
 

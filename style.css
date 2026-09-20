@@ -33,7 +33,6 @@ body {
 }
 a {
   color: inherit;
-  text-decoration-style: wavy;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
   transition: color 180ms ease;
@@ -576,8 +575,8 @@ h2 {
   font: 500 15px/1.72 var(--sans);
 }
 .paper-links a {
-  text-decoration: underline wavy #aab9b2;
-  text-decoration-thickness: 1px;
+  text-decoration: none;
+  border-bottom: 1px solid #aab9b2;
 }
 .scholar-more {
   text-align: right;
@@ -604,18 +603,6 @@ h2 {
 }
 .project .venue {
   color: var(--muted);
-}
-.project h3 {
-  margin-top: 10px;
-  font: 500 30px/1.2 var(--serif);
-  letter-spacing: -0.035em;
-}
-.project h3 a {
-  text-decoration: none;
-}
-.project h3 span {
-  color: var(--blue);
-  font: 400 23px/1 var(--sans);
 }
 .project-logo {
   display: block;
@@ -646,6 +633,7 @@ h2 {
 footer {
   display: flex;
   flex-wrap: wrap;
+  gap: 12px 24px;
   justify-content: space-between;
   padding: 25px 0;
   border-top: 1px solid var(--line);
@@ -655,9 +643,14 @@ footer {
 footer a {
   text-decoration: none;
 }
+.footer-info {
+  display: flex;
+  align-items: baseline;
+  gap: clamp(12px, 2vw, 24px);
+  white-space: nowrap;
+  font-size: 13px;
+}
 .last-updated {
-  flex-basis: 100%;
-  margin-top: 16px;
   font-size: 12px;
 }
 .news-float {
