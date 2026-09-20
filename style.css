@@ -563,6 +563,35 @@ h2 {
 .scholar-more span {
   color: var(--blue);
 }
+.projects {
+  padding: 39px 0 47px;
+  border-top: 1px solid var(--line);
+}
+.project {
+  display: grid;
+  grid-template-columns: 245px minmax(0, 1fr);
+  gap: 36px;
+  margin-top: 29px;
+}
+.project .venue {
+  color: var(--muted);
+}
+.project h3 {
+  margin-top: 10px;
+  font: 500 30px/1.2 var(--serif);
+  letter-spacing: -0.035em;
+}
+.project h3 a {
+  text-decoration: none;
+}
+.project h3 span {
+  color: var(--blue);
+  font: 400 23px/1 var(--sans);
+}
+.project-detail > p {
+  font-size: 21px;
+  line-height: 1.5;
+}
 .closing {
   padding: 42px 0 76px;
   border-top: 1px solid var(--ink);
@@ -576,6 +605,7 @@ h2 {
 }
 footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 25px 0;
   border-top: 1px solid var(--line);
@@ -584,6 +614,11 @@ footer {
 }
 footer a {
   text-decoration: none;
+}
+.last-updated {
+  flex-basis: 100%;
+  margin-top: 16px;
+  font-size: 12px;
 }
 .news-float {
   position: fixed;
@@ -678,6 +713,10 @@ body:has(dialog[open]) {
   }
 }
 @media (max-width: 760px) {
+  .project {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
   .navigation {
     height: 75px;
   }

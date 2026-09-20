@@ -1,6 +1,6 @@
 # Qihao Yang — academic homepage
 
-Personal homepage for Qihao Yang (杨起豪), a Ph.D. student at the School of Artificial Intelligence, Shanghai Jiao Tong University. Only the current doctoral affiliation and the two owner-selected 2026 works, **SkillOpt** and **SkillLens**, are displayed.
+Personal homepage for Qihao Yang (杨起豪), a Ph.D. student at the School of Artificial Intelligence, Shanghai Jiao Tong University. Features the current doctoral affiliation, the two owner-selected 2026 papers **SkillOpt** and **SkillLens**, and the open-source project **CitationClaw**.
 
 ## Preview and deployment
 
@@ -14,7 +14,7 @@ GitHub Pages serves the root of `main`. `.nojekyll` disables Jekyll processing.
 
 ## Editing
 
-- `index.html`: biography, research directions, two paper records, contact links, and news.
+- `index.html`: biography, research directions, two paper records, Projects, contact links, news, and the footer's last-updated date. Edit the visible date and its `datetime` attribute together.
 - `style.css`: responsive layout and appearance.
 - `script.js`: active navigation and the accessible News dialog.
 - `site-assets/`: portrait, paper figures, favicon, and locally hosted fonts.
@@ -33,6 +33,7 @@ The implementation uses the owner's information and photo. Personal illustration
 - SkillOpt figure: https://microsoft.github.io/SkillOpt/skillopt-assets/teaser-1.png
 - SkillLens: https://arxiv.org/abs/2605.23899
 - SkillLens figure: https://microsoft.github.io/SkillLens/static/images/overview.png
+- CitationClaw description and project links: https://github.com/VisionXLab/CitationClaw
 - Portrait: the owner's existing homepage photo.
 - Fonts: Pacifico, Fraunces, Newsreader, Archivo, and Space Mono from Google Fonts. Each font's SIL Open Font License is included in `site-assets/fonts/`.
 
