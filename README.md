@@ -42,7 +42,7 @@ The site loads its fonts and figures locally. Content remains visible without Ja
 
 ## Affiliation strip
 
-The strip beneath the biography shows only Shanghai Jiao Tong University (Ph.D.), Microsoft (Internship), and Huawei (Internship), as requested by the owner. Edit the original three items in `.affiliation-set` in `index.html`; JavaScript creates the visual duplicate used for seamless scrolling. The duplicate is hidden from assistive technology. The strip pauses on hover or through its pause button, and displays a static set when reduced motion is requested or JavaScript is unavailable.
+The strip beneath the biography shows only Shanghai Jiao Tong University (Ph.D.), Microsoft (Internship), and Huawei (Internship), as requested by the owner. Edit the original three items in `.affiliation-set` in `index.html`; JavaScript creates the visual duplicate used for seamless scrolling. The duplicate is hidden from assistive technology. The compact strip uses larger logos, pauses on hover, and displays a static set when reduced motion is requested or JavaScript is unavailable.
 
 Logo sources:
 

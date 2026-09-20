@@ -9,23 +9,9 @@
     copy.removeAttribute("aria-label");
     copy.inert = true;
     track.append(copy);
-    const toggle = affiliations.querySelector(".affiliation-toggle");
-    let paused = false;
     const updateMotion = () => {
       affiliations.classList.toggle("is-moving", !reducedMotion.matches);
-      affiliations.classList.toggle("is-paused", paused);
-      toggle.hidden = reducedMotion.matches;
-      toggle.setAttribute("aria-pressed", String(paused));
-      toggle.setAttribute(
-        "aria-label",
-        paused ? "Resume affiliation animation" : "Pause affiliation animation",
-      );
-      toggle.firstElementChild.textContent = paused ? "▷" : "Ⅱ";
     };
-    toggle.addEventListener("click", () => {
-      paused = !paused;
-      updateMotion();
-    });
     reducedMotion.addEventListener("change", updateMotion);
     updateMotion();
   }
