@@ -160,10 +160,17 @@ nav button[aria-expanded="true"]::after {
   margin-bottom: 28px;
 }
 h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 24px;
   font:
     400 56px/1.35 "Pacifico",
     cursive;
   margin-left: -2px;
+}
+.english-name {
+  white-space: nowrap;
 }
 .contact-links {
   display: flex;
@@ -184,6 +191,14 @@ h1 {
 }
 .bio-text > p + p {
   margin-top: 18px;
+}
+.chinese-name {
+  font-family: "Ma Shan Zheng", "Kaiti SC", KaiTi, cursive;
+  font-size: 0.78em;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
 }
 .bio-text > p a {
   text-decoration-color: #2f6fb5;
