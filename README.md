@@ -49,12 +49,12 @@ The site loads its fonts and figures locally. Content remains visible without Ja
 
 ## Visitor atlas
 
-The Visitors section above the footer combines a locally hosted Natural Earth map, country/region dots, and a real pageview counter. Counting began on September 28, 2026; earlier traffic cannot be reconstructed. The initial data includes setup/verification visits. No visitor IP addresses or individual visit records are stored in this repository.
+The Visitors section between Projects and Contact combines a locally hosted Natural Earth map, country/region dots, and a real pageview counter. Country names are not listed beneath the map. Counting began on September 28, 2026; earlier traffic cannot be reconstructed. The initial data includes setup/verification visits. No visitor IP addresses or individual visit records are stored in this repository.
 
 - Flag Counter ID: `5FQV`, server `s01`. [Public statistics](https://info.flagcounter.com/5FQV), [country counts](https://s01.flagcounter.com/countries/5FQV/). Preserve this ID to retain the history.
 - The counter image loads once per page load on `charlesyang030.github.io`, even when the visitor has not scrolled to the footer. Local previews do not increment it. Flag Counter's free image display can lag by about five minutes. Country visitor counts use the provider's daily deduplication and are distinct from pageviews.
 - `.github/workflows/visitor-map.yml` runs hourly (or manually) and uses `scripts/sync_visitors.py` to export only aggregate country counts to `visitors.json` on the separate `visitor-data` branch. It commits only when counts change, without rebuilding the homepage. GitHub may delay scheduled runs.
-- The browser reads that public JSON, falls back to `site-assets/visitors.json` when unavailable, and labels the fallback as a saved map. Provider errors preserve the previous dataset. Dots represent Natural Earth country label positions, not precise visitor locations. Hovering or keyboard-focusing a dot shows its country's count.
+- The browser reads that public JSON, falls back to `site-assets/visitors.json` when unavailable, and labels the fallback as a saved map. Provider errors preserve the previous dataset. Dots represent Natural Earth country label positions, not precise visitor locations. Dot details remain available through native hover tooltips and accessible labels.
 - With JavaScript disabled, the base map and counter remain available; the linked statistics page provides geographic details. If the counter is blocked, its link remains visible.
 - [Flag Counter FAQ](https://flagcounter.com/faq.html) describes counting and retention, including removal of free counters after 30 days without a visitor. [Provider privacy information](https://flagcounter.com/privacy.html).
 

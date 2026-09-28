@@ -10,16 +10,10 @@
   }
   const visitorPins = document.querySelector(".visitors-pins");
   if (visitorPins) {
-    const places = document.querySelector("#visitor-locations");
     const ns = "http://www.w3.org/2000/svg";
     const renderVisitors = (data) => {
       if (!Array.isArray(data.countries)) throw new Error("Invalid visitor data");
       visitorPins.replaceChildren();
-      const summary = data.countries.length
-        ? data.countries.slice(0, 4).map((country) => country.name).join(" · ") +
-          (data.countries.length > 4 ? ` · +${data.countries.length - 4} more` : "")
-        : "The atlas grows with each new place.";
-      places.textContent = summary;
       data.countries.forEach((country) => {
         if (!Array.isArray(country.position) || country.position.length !== 2 ||
             !country.position.every(Number.isFinite)) return;
@@ -37,10 +31,6 @@
         const title = document.createElementNS(ns, "title");
         title.textContent = label;
         pin.append(title);
-        for (const event of ["pointerenter", "focus"])
-          pin.addEventListener(event, () => { places.textContent = label; });
-        for (const event of ["pointerleave", "blur"])
-          pin.addEventListener(event, () => { places.textContent = summary; });
         visitorPins.append(pin);
       });
       const updated = new Date(data.updatedAt);

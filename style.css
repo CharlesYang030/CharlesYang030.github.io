@@ -841,12 +841,6 @@ h2 {
   border-radius: 50%;
   background: #a56340;
 }
-.visitors-places {
-  min-height: 22px;
-  margin-top: 9px;
-  color: var(--muted);
-  font: italic 400 14px/1.6 var(--body-font);
-}
 .visitors-footnote {
   grid-column: 1 / -1;
   display: flex;
