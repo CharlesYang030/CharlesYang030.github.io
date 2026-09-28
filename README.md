@@ -47,6 +47,19 @@ CitationClaw's 313 GitHub stars were verified through the GitHub API on Septembe
 
 The site loads its fonts and figures locally. Content remains visible without JavaScript. The News dialog supports keyboard navigation, Escape dismissal, and focus return; motion respects `prefers-reduced-motion`.
 
+## Visitor atlas
+
+The Visitors section above the footer combines a locally hosted Natural Earth map, country/region dots, and a real pageview counter. Counting began on September 28, 2026; earlier traffic cannot be reconstructed. The initial data includes setup/verification visits. No visitor IP addresses or individual visit records are stored in this repository.
+
+- Flag Counter ID: `5FQV`, server `s01`. [Public statistics](https://info.flagcounter.com/5FQV), [country counts](https://s01.flagcounter.com/countries/5FQV/). Preserve this ID to retain the history.
+- The counter image loads once per page load on `charlesyang030.github.io`, even when the visitor has not scrolled to the footer. Local previews do not increment it. Flag Counter's free image display can lag by about five minutes. Country visitor counts use the provider's daily deduplication and are distinct from pageviews.
+- `.github/workflows/visitor-map.yml` runs hourly (or manually) and uses `scripts/sync_visitors.py` to export only aggregate country counts to `visitors.json` on the separate `visitor-data` branch. It commits only when counts change, without rebuilding the homepage. GitHub may delay scheduled runs.
+- The browser reads that public JSON, falls back to `site-assets/visitors.json` when unavailable, and labels the fallback as a saved map. Provider errors preserve the previous dataset. Dots represent Natural Earth country label positions, not precise visitor locations. Hovering or keyboard-focusing a dot shows its country's count.
+- With JavaScript disabled, the base map and counter remain available; the linked statistics page provides geographic details. If the counter is blocked, its link remains visible.
+- [Flag Counter FAQ](https://flagcounter.com/faq.html) describes counting and retention, including removal of free counters after 30 days without a visitor. [Provider privacy information](https://flagcounter.com/privacy.html).
+
+`site-assets/visitor-world.svg` and `visitor-country-positions.json` were generated from Natural Earth's `ne_110m_land.geojson` and `ne_50m_admin_0_countries.geojson` using `python3 scripts/build_visitor_map.py LAND_FILE COUNTRIES_FILE`. These [public-domain map datasets](https://www.naturalearthdata.com/about/terms-of-use/) come from [natural-earth-vector](https://github.com/nvkelso/natural-earth-vector/tree/master/geojson); no runtime map library is required. The generator uses an equirectangular projection cropped below 65°S, with land silhouettes and no political borders.
+
 ## Affiliation strip
 
 The strip beneath the biography shows Shanghai Jiao Tong University (Ph.D.), Tsinghua University (Internship), LTTC at EdUHK (Visiting), Microsoft (Internship), and Huawei (Internship), in that order, as requested by the owner. Edit the original five items in `.affiliation-set` in `index.html`; JavaScript creates the visual duplicate used for seamless scrolling. The duplicate is hidden from assistive technology. The compact strip uses larger logos, pauses on hover, and displays a manually scrollable static set when reduced motion is requested or JavaScript is unavailable. On small screens, the icons keep their size and slide into view rather than shrinking to fit five at once.

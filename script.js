@@ -1,5 +1,75 @@
 (() => {
   "use strict";
+  const visitorCounter = document.querySelector("#visitor-counter");
+  if (visitorCounter && location.hostname === "charlesyang030.github.io") {
+    visitorCounter.addEventListener("load", () => {
+      visitorCounter.hidden = false;
+      document.querySelector("#visitor-counter-fallback").hidden = true;
+    });
+    visitorCounter.src = visitorCounter.dataset.src;
+  }
+  const visitorPins = document.querySelector(".visitors-pins");
+  if (visitorPins) {
+    const places = document.querySelector("#visitor-locations");
+    const ns = "http://www.w3.org/2000/svg";
+    const renderVisitors = (data) => {
+      if (!Array.isArray(data.countries)) throw new Error("Invalid visitor data");
+      visitorPins.replaceChildren();
+      const summary = data.countries.length
+        ? data.countries.slice(0, 4).map((country) => country.name).join(" · ") +
+          (data.countries.length > 4 ? ` · +${data.countries.length - 4} more` : "")
+        : "The atlas grows with each new place.";
+      places.textContent = summary;
+      data.countries.forEach((country) => {
+        if (!Array.isArray(country.position) || country.position.length !== 2 ||
+            !country.position.every(Number.isFinite)) return;
+        const [x, y] = country.position;
+        if (x < 0 || x > 720 || y < 0 || y > 300) return;
+        const pin = document.createElementNS(ns, "circle");
+        pin.setAttribute("cx", x);
+        pin.setAttribute("cy", y);
+        pin.setAttribute("r", "4.5");
+        pin.setAttribute("class", "visitor-pin");
+        pin.setAttribute("tabindex", "0");
+        pin.setAttribute("role", "img");
+        const label = `${country.name} · ${Number(country.visitors).toLocaleString()} recorded ${country.visitors === 1 ? "visit" : "visits"}`;
+        pin.setAttribute("aria-label", label);
+        const title = document.createElementNS(ns, "title");
+        title.textContent = label;
+        pin.append(title);
+        for (const event of ["pointerenter", "focus"])
+          pin.addEventListener(event, () => { places.textContent = label; });
+        for (const event of ["pointerleave", "blur"])
+          pin.addEventListener(event, () => { places.textContent = summary; });
+        visitorPins.append(pin);
+      });
+      const updated = new Date(data.updatedAt);
+      if (!Number.isNaN(updated.getTime()))
+        document.querySelector(".visitors-legend").title = `Locations last changed ${updated.toLocaleString()}`;
+    };
+    const loadVisitors = async () => {
+      // The bundled snapshot keeps the atlas useful if the statistics host is blocked.
+      for (const url of [
+        "https://raw.githubusercontent.com/CharlesYang030/CharlesYang030.github.io/visitor-data/visitors.json",
+        "site-assets/visitors.json",
+      ]) {
+        try {
+          const response = await fetch(url, { signal: AbortSignal.timeout(8000) });
+          if (!response.ok) throw new Error("Visitor statistics unavailable");
+          const data = await response.json();
+          renderVisitors(data);
+          if (url.startsWith("site-assets/")) {
+            document.querySelector("#visitor-map-status").textContent =
+              `Saved map · ${new Date(data.updatedAt).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}`;
+          }
+          return;
+        } catch {
+          // Retain the map and the direct statistics link when either host is unavailable.
+        }
+      }
+    };
+    loadVisitors();
+  }
   const portraitSwitch = document.querySelector(".portrait-switch");
   const portraitPhotos = [...document.querySelectorAll(".portrait-photo")];
   if (portraitSwitch && portraitPhotos.length === 2) {

@@ -1,0 +1,37 @@
+name: Update visitor map
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visitor-map
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out public statistics branch
+        run: |
+          git fetch origin visitor-data
+          git worktree add /tmp/visitor-data origin/visitor-data
+      - name: Refresh aggregate country counts
+        run: python3 scripts/sync_visitors.py --output /tmp/visitor-data/visitors.json
+      - name: Publish updated statistics
+        working-directory: /tmp/visitor-data
+        run: |
+          if git diff --quiet -- visitors.json; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add visitors.json
+          git commit -m 'Refresh aggregate visitor locations'
+          git push origin HEAD:visitor-data
