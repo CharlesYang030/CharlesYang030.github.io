@@ -550,13 +550,50 @@ h2 {
   transform: scale(1.025);
 }
 .paper-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 5px 13px;
-  padding-top: 21px;
+  display: grid;
+  gap: 12px;
+  padding-top: 18px;
   color: var(--muted);
+}
+.acceptance-card {
+  --acceptance-ink: #315780;
+  --acceptance-line: #cbd9e7;
+  --acceptance-tint: #e3edf7;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 66px;
+  padding: 14px 16px;
+  border: 1px solid var(--acceptance-line);
+  border-left: 3px solid var(--acceptance-ink);
+  border-radius: 4px 12px 12px 4px;
+  background: linear-gradient(115deg, #f8fbff, #edf3f9);
+  color: var(--acceptance-ink);
+  box-shadow: 0 3px 10px #24344a05;
+}
+.acceptance-card--spotlight {
+  --acceptance-ink: #80541c;
+  --acceptance-line: #e4d2ac;
+  --acceptance-tint: #f4e6c7;
+  background: linear-gradient(115deg, #fffdf7, #faf0db);
+}
+.acceptance-mark {
+  font: 400 23px/1 Georgia, serif;
+}
+.acceptance-venue {
+  font: 500 20px/1.3 var(--serif);
+  letter-spacing: -0.025em;
+}
+.acceptance-status {
+  margin-left: auto;
+  padding: 4px 8px;
+  border: 1px solid var(--acceptance-line);
+  border-radius: 5px;
+  background: var(--acceptance-tint);
+  font: 600 10px/1.4 var(--sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 .venue {
   font:

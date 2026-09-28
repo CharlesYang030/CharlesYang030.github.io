@@ -25,7 +25,7 @@ All biography and doctoral details are sourced from the owner's September CV. Th
 
 At the owner's request, the layout closely follows [Zisu Huang's homepage](https://huangzisu.github.io/): 960px content area, Pacifico name, Newsreader body, Fraunces headings, Archivo annotations, a circular portrait, blue links, thin dividers, and two-column paper cards. The earlier terracotta palette, oversized introduction, section-number sidebar, ticker, and abstract paper banner have been replaced.
 
-The implementation uses the owner's information and photo. Personal illustrations and the tennis interaction from the reference site are not included. News contains only the owner's doctoral enrollment and the two public paper releases.
+The implementation uses the owner's information and photo. Personal illustrations and the tennis interaction from the reference site are not included. News includes the owner's three NeurIPS 2026 acceptances (two Spotlights), doctoral enrollment, and the two public paper releases. The biography uses “co-advised by Prof.” for the doctoral advisors.
 
 ## Sources and assets
 
@@ -41,7 +41,7 @@ The implementation uses the owner's information and photo. Personal illustration
 
 The heading places contact links after the Chinese name. Narrow screens move the English name to its own row while keeping the Chinese name and contact links together. The portrait's lower-right button switches between the original mountain photo and the owner-provided Universal globe photo (`site-assets/qihao-yang-universal.jpg`). The original photo remains the default; the switch supports mouse, touch, and keyboard and is hidden without JavaScript. The supplied photo is stored unchanged; `.portrait-photo--universal` controls its circular framing in CSS.
 
-Both papers are 2026 arXiv preprints, under review per the September CV. The star count is a dated snapshot: SkillOpt had 17,273 GitHub stars on September 20, 2026. Qihao Yang's equal-contribution status comes from the owner-provided CV.
+SkillOpt was accepted to NeurIPS 2026 as a Spotlight; SkillLens was also accepted to NeurIPS 2026. These statuses were updated on September 28, 2026, at the owner's request and checked against [Zisu Huang's homepage](https://huangzisu.github.io/). The `.acceptance-card` styles show a warm gold Spotlight card and a blue acceptance card, with explicit text labels. The News total of three accepted papers, including two Spotlights, was supplied by the owner; Selected Work continues to feature only SkillOpt and SkillLens. The star count is a dated snapshot: SkillOpt had 17,273 GitHub stars on September 20, 2026. Qihao Yang's equal-contribution status comes from the owner-provided CV.
 
 CitationClaw's 313 GitHub stars were verified through the GitHub API on September 20, 2026. This is a static snapshot; edit its visible count and tooltip in `index.html` when updating. Its linked logo replaces the separate text title. Research phrases use `.ink-mark` (amber) and `.keyword` (blue) for marker highlights that support line wrapping. Author names use `.me` for a hand-drawn underline; ordinary text links use straight underlines.
 
