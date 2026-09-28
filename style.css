@@ -551,49 +551,51 @@ h2 {
 }
 .paper-meta {
   display: grid;
-  gap: 12px;
-  padding-top: 18px;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding-top: 16px;
   color: var(--muted);
 }
 .acceptance-card {
-  --acceptance-ink: #315780;
-  --acceptance-line: #cbd9e7;
-  --acceptance-tint: #e3edf7;
-  display: flex;
+  --acceptance-ink: #496174;
+  --acceptance-line: #c8d2d8;
+  display: inline-flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  min-height: 66px;
-  padding: 14px 16px;
-  border: 1px solid var(--acceptance-line);
-  border-left: 3px solid var(--acceptance-ink);
-  border-radius: 4px 12px 12px 4px;
-  background: linear-gradient(115deg, #f8fbff, #edf3f9);
-  color: var(--acceptance-ink);
-  box-shadow: 0 3px 10px #24344a05;
-}
-.acceptance-card--spotlight {
-  --acceptance-ink: #80541c;
-  --acceptance-line: #e4d2ac;
-  --acceptance-tint: #f4e6c7;
-  background: linear-gradient(115deg, #fffdf7, #faf0db);
-}
-.acceptance-mark {
-  font: 400 23px/1 Georgia, serif;
-}
-.acceptance-venue {
-  font: 500 20px/1.3 var(--serif);
-  letter-spacing: -0.025em;
-}
-.acceptance-status {
-  margin-left: auto;
+  gap: 6px;
   padding: 4px 8px;
   border: 1px solid var(--acceptance-line);
-  border-radius: 5px;
-  background: var(--acceptance-tint);
-  font: 600 10px/1.4 var(--sans);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  border-radius: 2px;
+  color: var(--acceptance-ink);
+  white-space: nowrap;
+}
+.acceptance-card--spotlight {
+  --acceptance-ink: #80602f;
+  --acceptance-line: #d5c8af;
+}
+.acceptance-mark {
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.acceptance-venue {
+  font: 500 13px/18px var(--serif);
+  letter-spacing: -0.02em;
+}
+.acceptance-status {
+  padding-left: 7px;
+  border-left: 1px solid var(--acceptance-line);
+  font: italic 450 13px/18px var(--body-font);
+}
+.paper-meta .topics {
+  font: 400 11px/1.5 var(--sans);
+  text-align: right;
+  text-wrap: balance;
 }
 .venue {
   font:
@@ -921,6 +923,15 @@ body:has(dialog[open]) {
     top: 0;
     right: 0;
     margin-top: 0;
+  }
+}
+@media (max-width: 700px) {
+  .paper-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .paper-figure {
+    height: 220px;
   }
 }
 @media (max-width: 540px) {
