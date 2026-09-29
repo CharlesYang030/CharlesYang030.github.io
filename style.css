@@ -703,6 +703,44 @@ h2 {
 .project .venue {
   color: var(--muted);
 }
+.project + .project {
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+.project-wordmark {
+  margin-top: 20px;
+  font: 500 42px/1.3 var(--serif);
+  letter-spacing: -0.04em;
+}
+.project-wordmark a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.project-wordmark i {
+  color: var(--blue);
+  font-weight: 400;
+}
+.project-emblem {
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.project-emblem-orbit {
+  stroke: var(--blue);
+}
+.project-caption {
+  margin-top: 8px;
+  color: var(--muted);
+  font: italic 400 15px/1.5 var(--body-font);
+}
 .project-logo {
   display: block;
   width: 245px;
