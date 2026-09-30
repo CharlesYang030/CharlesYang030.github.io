@@ -1,7 +1,7 @@
 {
   "source": "https://s01.flagcounter.com/countries/5FQV/",
   "since": "2026-09-28",
-  "updatedAt": "2026-09-30T08:39:32+00:00",
+  "updatedAt": "2026-09-30T15:57:45+00:00",
   "countries": [
     {
       "code": "SG",
@@ -37,6 +37,15 @@
       "position": [
         165.03,
         90.92
+      ]
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "visitors": 1,
+      "position": [
+        588.2,
+        125.1
       ]
     },
     {
