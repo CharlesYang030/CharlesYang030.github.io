@@ -1,7 +1,7 @@
 {
   "source": "https://s01.flagcounter.com/countries/5FQV/",
   "since": "2026-09-28",
-  "updatedAt": "2026-10-02T19:22:39+00:00",
+  "updatedAt": "2026-10-02T23:49:59+00:00",
   "countries": [
     {
       "code": "KR",
@@ -13,21 +13,21 @@
       ]
     },
     {
+      "code": "US",
+      "name": "United States",
+      "visitors": 4,
+      "position": [
+        165.03,
+        90.92
+      ]
+    },
+    {
       "code": "SG",
       "name": "Singapore",
       "visitors": 3,
       "position": [
         567.63,
         167.27
-      ]
-    },
-    {
-      "code": "US",
-      "name": "United States",
-      "visitors": 3,
-      "position": [
-        165.03,
-        90.92
       ]
     },
     {
