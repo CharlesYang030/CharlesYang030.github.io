@@ -1,8 +1,17 @@
 {
   "source": "https://s01.flagcounter.com/countries/5FQV/",
   "since": "2026-09-28",
-  "updatedAt": "2026-10-04T09:53:50+00:00",
+  "updatedAt": "2026-10-05T09:11:13+00:00",
   "countries": [
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "visitors": 5,
+      "position": [
+        616.26,
+        97.23
+      ]
+    },
     {
       "code": "US",
       "name": "United States",
@@ -10,15 +19,6 @@
       "position": [
         165.03,
         90.92
-      ]
-    },
-    {
-      "code": "KR",
-      "name": "South Korea",
-      "visitors": 4,
-      "position": [
-        616.26,
-        97.23
       ]
     },
     {
