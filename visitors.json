@@ -1,12 +1,12 @@
 {
   "source": "https://s01.flagcounter.com/countries/5FQV/",
   "since": "2026-09-28",
-  "updatedAt": "2026-10-10T01:47:24+00:00",
+  "updatedAt": "2026-10-10T08:35:48+00:00",
   "countries": [
     {
       "code": "US",
       "name": "United States",
-      "visitors": 10,
+      "visitors": 11,
       "position": [
         165.03,
         90.92
@@ -22,6 +22,15 @@
       ]
     },
     {
+      "code": "SG",
+      "name": "Singapore",
+      "visitors": 4,
+      "position": [
+        567.63,
+        167.27
+      ]
+    },
+    {
       "code": "CN",
       "name": "China",
       "visitors": 3,
@@ -31,18 +40,9 @@
       ]
     },
     {
-      "code": "SG",
-      "name": "Singapore",
-      "visitors": 3,
-      "position": [
-        567.63,
-        167.27
-      ]
-    },
-    {
       "code": "JP",
       "name": "Japan",
-      "visitors": 2,
+      "visitors": 3,
       "position": [
         636.88,
         97.71
