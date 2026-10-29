@@ -48,7 +48,9 @@
           if (!response.ok) throw new Error("Visitor statistics unavailable");
           const data = await response.json();
           renderVisitors(data);
-          if (url.startsWith("site-assets/")) {
+          const checked = new Date(data.checkedAt || data.updatedAt);
+          const stale = Number.isNaN(checked.getTime()) || Date.now() - checked.getTime() > 48 * 60 * 60 * 1000;
+          if (url.startsWith("site-assets/") || stale) {
             document.querySelector("#visitor-map-status").textContent =
               `Saved map · ${new Date(data.updatedAt).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}`;
           }

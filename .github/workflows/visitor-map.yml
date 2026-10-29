@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - name: Test country parser and snapshot protection
+        run: python3 -m unittest scripts.test_sync_visitors
       - name: Check out public statistics branch
         run: |
           git fetch origin visitor-data

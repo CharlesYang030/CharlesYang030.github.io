@@ -55,8 +55,8 @@ The Visitors section between Projects and Contact combines a locally hosted Natu
 
 - Flag Counter ID: `5FQV`, server `s01`. [Public statistics](https://info.flagcounter.com/5FQV), [country counts](https://s01.flagcounter.com/countries/5FQV/). Preserve this ID to retain the history.
 - The counter image loads once per page load on `charlesyang030.github.io`, even when the visitor has not scrolled to the footer. Local previews do not increment it. Flag Counter's free image display can lag by about five minutes. Country visitor counts use the provider's daily deduplication and are distinct from pageviews.
-- `.github/workflows/visitor-map.yml` runs hourly (or manually) and uses `scripts/sync_visitors.py` to export only aggregate country counts to `visitors.json` on the separate `visitor-data` branch. It commits only when counts change, without rebuilding the homepage. GitHub may delay scheduled runs.
-- The browser reads that public JSON, falls back to `site-assets/visitors.json` when unavailable, and labels the fallback as a saved map. Provider errors preserve the previous dataset. Dots represent Natural Earth country label positions, not precise visitor locations. Dot details remain available through native hover tooltips and accessible labels.
+- `.github/workflows/visitor-map.yml` runs hourly (or manually) and uses `scripts/sync_visitors.py` to export only aggregate country counts to `visitors.json` on the separate `visitor-data` branch. It commits when counts change or once daily to record a successful freshness check, without rebuilding the homepage. GitHub may delay scheduled runs.
+- The browser reads that public JSON, falls back to `site-assets/visitors.json` when unavailable, and labels the fallback as a saved map. Remote data not successfully checked in over 48 hours is also labeled as a saved map. Provider errors preserve the previous dataset. Dots represent Natural Earth country label positions, not precise visitor locations. Dot details remain available through native hover tooltips and accessible labels.
 - With JavaScript disabled, the base map and counter remain available; the linked statistics page provides geographic details. If the counter is blocked, its link remains visible.
 - [Flag Counter FAQ](https://flagcounter.com/faq.html) describes counting and retention, including removal of free counters after 30 days without a visitor. [Provider privacy information](https://flagcounter.com/privacy.html).
 
@@ -74,3 +74,5 @@ Logo sources:
 
 - Tsinghua: https://cuzyoung.github.io/ZiyangGong.github.io/assets/logos/thu.png
 - LTTC EdUHK: https://lttc.eduhk.hk/wp-content/uploads/2024/09/LTTC-Logo.svg
+
+The October 29, 2026 parser repair uses country flag classes and table cells instead of `/factbook/` links, which the provider replaced with Wikipedia URLs. It handles nested region tables, validates complete country totals, and retries transient network errors up to three times. Run `python3 -m unittest scripts.test_sync_visitors` for parser, pagination, retry, and snapshot-preservation regression checks; the scheduled workflow runs these checks before fetching statistics. Parse errors still fail visibly rather than publishing incomplete data.
