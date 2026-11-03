@@ -1,8 +1,8 @@
 {
   "source": "https://s01.flagcounter.com/countries/5FQV/",
   "since": "2026-09-28",
-  "updatedAt": "2026-11-02T18:29:06+00:00",
-  "checkedAt": "2026-11-03T01:38:40+00:00",
+  "updatedAt": "2026-11-03T09:40:14+00:00",
+  "checkedAt": "2026-11-03T09:40:14+00:00",
   "countries": [
     {
       "code": "US",
@@ -16,7 +16,7 @@
     {
       "code": "SG",
       "name": "Singapore",
-      "visitors": 23,
+      "visitors": 24,
       "position": [
         567.63,
         167.27
@@ -43,7 +43,7 @@
     {
       "code": "JP",
       "name": "Japan",
-      "visitors": 5,
+      "visitors": 6,
       "position": [
         636.88,
         97.71
