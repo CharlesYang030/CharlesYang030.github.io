@@ -1,8 +1,8 @@
 {
   "source": "https://s01.flagcounter.com/countries/5FQV/",
   "since": "2026-09-28",
-  "updatedAt": "2026-11-06T00:22:45+00:00",
-  "checkedAt": "2026-11-06T00:22:45+00:00",
+  "updatedAt": "2026-11-06T07:58:20+00:00",
+  "checkedAt": "2026-11-06T07:58:20+00:00",
   "countries": [
     {
       "code": "US",
@@ -101,6 +101,15 @@
       "position": [
         432.75,
         108.39
+      ]
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "visitors": 1,
+      "position": [
+        601.74,
+        122.7
       ]
     }
   ]
