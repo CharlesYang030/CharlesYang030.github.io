@@ -1,13 +1,13 @@
 {
   "source": "https://s01.flagcounter.com/countries/5FQV/",
   "since": "2026-09-28",
-  "updatedAt": "2026-11-17T14:33:55+00:00",
-  "checkedAt": "2026-11-18T04:29:34+00:00",
+  "updatedAt": "2026-11-18T14:10:04+00:00",
+  "checkedAt": "2026-11-18T14:10:04+00:00",
   "countries": [
     {
       "code": "US",
       "name": "United States",
-      "visitors": 32,
+      "visitors": 35,
       "position": [
         165.03,
         90.92
@@ -25,7 +25,7 @@
     {
       "code": "CN",
       "name": "China",
-      "visitors": 16,
+      "visitors": 17,
       "position": [
         572.67,
         105.0
